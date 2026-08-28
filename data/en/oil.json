@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "oil",
+    "title": "Oil",
+    "description": "Upstream, exports, refining and oil-price trends through the year 1404. The data is sample and unreal.",
+    "accent": "#0f766e",
+    "topics": [
+      {
+        "slug": "upstream",
+        "title": "Upstream"
+      },
+      {
+        "slug": "exports",
+        "title": "Exports"
+      },
+      {
+        "slug": "refining",
+        "title": "Refining"
+      },
+      {
+        "slug": "prices",
+        "title": "Prices"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "oil-001",
+      "slug": "southern-field-redevelopment-contract-1404",
+      "section": "oil",
+      "topic": "upstream",
+      "title": "Redevelopment contract signed for a mature southern oil field",
+      "lead": "In this sample, a contract has been signed to raise output from an old onshore field, aiming to add 85,000 barrels per day over four years.",
+      "body": [
+        "On this item's invented account, the project is worth 1.9 billion hypothetical currency units and covers 40 new wells, renewal of gathering pipelines and a new desalting unit.",
+        "In the same scenario, the field's recovery factor rises from 24 to 31 percent through gas injection and reservoir-pressure management. The first noticeable output gain is expected 18 months after operations start.",
+        "This text reports no real event; every figure, body and timeframe was built to show the oil service page."
+      ],
+      "tags": [
+        "upstream",
+        "field redevelopment",
+        "enhanced recovery",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/06/02",
+      "dateGregorian": "2025-08-24",
+      "publishedAt": "2025-08-24T09:10:00+03:30",
+      "readingMinutes": 4,
+      "views": 61230,
+      "image": "/api/media/oil/southern-field-redevelopment-contract-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "oil-002",
+      "slug": "crude-condensate-exports-q1-1404",
+      "section": "oil",
+      "topic": "exports",
+      "title": "Crude and condensate exports rose in spring 1404",
+      "lead": "On this sample's invented data, first-quarter exports averaged 1.65 million barrels per day, about 7 percent above winter.",
+      "body": [
+        "On this report's hypothetical figures, East Asia was the top destination with a 68 percent share, and gas condensate made up about a fifth of all cargoes.",
+        "In the same scenario, floating storage near export terminals fell to its lowest in 18 months, read in this sample as a sign of smoother deliveries.",
+        "This story is fabricated and made to test how export data displays in the oil service; none of its numbers rests on a real source."
+      ],
+      "tags": [
+        "exports",
+        "crude oil",
+        "gas condensate",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/05/31",
+      "dateGregorian": "2025-08-22",
+      "publishedAt": "2025-08-22T07:45:00+03:30",
+      "readingMinutes": 3,
+      "views": 78450,
+      "image": "/api/media/oil/crude-condensate-exports-q1-1404",
+      "featured": true,
+      "breaking": true
+    },
+    {
+      "id": "oil-003",
+      "slug": "refinery-upgrade-gasoline-output-1404",
+      "section": "oil",
+      "topic": "refining",
+      "title": "Refinery upgrade lifts gasoline output and cuts sulphur",
+      "lead": "In this sample, a refinery's new treatment unit added 12 million litres a day of Euro-5 gasoline capacity.",
+      "body": [
+        "On this item's invented text, the project includes a catalytic reforming unit and a desulphurisation unit, with investment stated at 950 million hypothetical currency units.",
+        "In the same scenario, average sulphur in the output gasoline fell from 50 to under 10 ppm, and the refinery's fuel-oil yield dropped about 15 percent.",
+        "Every figure and technical spec in this text is hypothetical and written only to show how refining news is covered in this demo."
+      ],
+      "tags": [
+        "refining",
+        "gasoline",
+        "desulphurisation",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/05/23",
+      "dateGregorian": "2025-08-14",
+      "publishedAt": "2025-08-14T14:25:00+03:30",
+      "readingMinutes": 4,
+      "views": 40120,
+      "image": "/api/media/oil/refinery-upgrade-gasoline-output-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "oil-004",
+      "slug": "brent-range-analysis-late-summer-1404",
+      "section": "oil",
+      "topic": "prices",
+      "title": "Sample analysis: Brent holds a narrow range into late summer",
+      "lead": "In this hypothetical note, the Demo Analysis Desk expects Brent to swing between 78 and 85 fictional units.",
+      "body": [
+        "On this analysis's invented assumptions, seasonal refinery demand and steady supply are the two balancing forces, and a break of the range is likely only with a supply shock.",
+        "In the same text, the quality spread between the heavy and light baskets has widened slightly, which the hypothetical author reads as refiners favouring lighter feed this season.",
+        "This note is not investment advice, has no real data, and exists only to show the market-analysis format in this demo's oil service."
+      ],
+      "tags": [
+        "prices",
+        "Brent",
+        "market analysis",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Demo Analysis Desk",
+      "dateJalali": "1404/05/15",
+      "dateGregorian": "2025-08-06",
+      "publishedAt": "2025-08-06T17:30:00+03:30",
+      "readingMinutes": 3,
+      "views": 52310,
+      "image": "/api/media/oil/brent-range-analysis-late-summer-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-005",
+      "slug": "enhanced-oil-recovery-pilot-results-1404",
+      "section": "oil",
+      "topic": "upstream",
+      "title": "Enhanced-recovery pilot reports a higher recovery factor",
+      "lead": "In this sample, smart water injection in a test block raised the recovery factor by 4 percentage points in two years.",
+      "body": [
+        "On this report's invented figures, the test block used six producing wells and three injectors, with the salinity of the injected water tuned to disrupt oil sticking to rock.",
+        "In the same scenario, the operator says that extending the method to the whole field would add about 90 million barrels of cumulative output over a decade.",
+        "This text is not sourced; all its technical and economic detail was built to show the upstream news structure."
+      ],
+      "tags": [
+        "upstream",
+        "enhanced recovery",
+        "water injection",
+        "1404"
+      ],
+      "author": "Field Reporting",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/05/07",
+      "dateGregorian": "2025-07-29",
+      "publishedAt": "2025-07-29T10:05:00+03:30",
+      "readingMinutes": 3,
+      "views": 21770,
+      "image": "/api/media/oil/enhanced-oil-recovery-pilot-results-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-006",
+      "slug": "floating-storage-terminal-flexibility-1404",
+      "section": "oil",
+      "topic": "exports",
+      "title": "New floating storage adds flexibility at the export terminal",
+      "lead": "In this sample, a 2-million-barrel storage vessel has been added to the main export terminal to better manage loading schedules.",
+      "body": [
+        "On this item's hypothetical text, the new vessel lets loading continue on high-swell days without a full stop, cutting tanker waiting time by about 11 hours.",
+        "In the same scenario, the operator says this back-up capacity trims ship-demurrage costs by roughly 7 million hypothetical currency units a year.",
+        "This story is fabricated and written only to complete the export news list in this demo's oil service."
+      ],
+      "tags": [
+        "exports",
+        "floating storage",
+        "oil terminal",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/04/26",
+      "dateGregorian": "2025-07-17",
+      "publishedAt": "2025-07-17T13:40:00+03:30",
+      "readingMinutes": 2,
+      "views": 17640,
+      "image": "/api/media/oil/floating-storage-terminal-flexibility-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-007",
+      "slug": "refining-margins-narrow-report-1404",
+      "section": "oil",
+      "topic": "refining",
+      "title": "Sample report: refining margins narrow as product supply improves",
+      "lead": "In this sample, a hypothetical regional refining-margin index is down about 18 percent from the previous month.",
+      "body": [
+        "On this report's invented figures, several refining units returning from maintenance, plus higher gasoline and diesel stocks, have put downward pressure on margins.",
+        "In the same hypothetical text, part of the drop is expected to reverse as the cold season nears and heating-gasoil demand grows.",
+        "This piece has no sourced data and was built only to show the market-report format in the oil service."
+      ],
+      "tags": [
+        "refining",
+        "margins",
+        "oil products",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Demo Analysis Desk",
+      "dateJalali": "1404/04/13",
+      "dateGregorian": "2025-07-04",
+      "publishedAt": "2025-07-04T16:15:00+03:30",
+      "readingMinutes": 2,
+      "views": 14980,
+      "image": "/api/media/oil/refining-margins-narrow-report-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-008",
+      "slug": "heavy-crude-discount-widens-1404",
+      "section": "oil",
+      "topic": "prices",
+      "title": "Heavy-crude discount widens on a bigger quality spread",
+      "lead": "In this sample, the price gap between heavy crude and the light basket has reached 6.5 fictional units per barrel.",
+      "body": [
+        "On this analysis's invented assumptions, limited conversion-unit capacity at some regional refineries has softened demand for heavy feed and deepened its discount.",
+        "In the same scenario, if several new coking units start up on schedule, the discount is expected to narrow somewhat in later quarters.",
+        "This note is not trading advice, and all its numbers were built to show the price-analysis structure in this demo."
+      ],
+      "tags": [
+        "prices",
+        "heavy crude",
+        "quality spread",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Demo Analysis Desk",
+      "dateJalali": "1404/03/29",
+      "dateGregorian": "2025-06-19",
+      "publishedAt": "2025-06-19T11:55:00+03:30",
+      "readingMinutes": 2,
+      "views": 16210,
+      "image": "/api/media/oil/heavy-crude-discount-widens-1404",
+      "featured": false,
+      "breaking": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "bk-extra-1",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "Talep uyarısı: şebeke yükü yine kritik banda yaklaştı",
+      "time": "18:05"
+    },
+    {
+      "id": "bk-extra-5",
+      "section": "oil",
+      "slug": "brent-range-analysis-late-summer-1404",
+      "title": "Analiz masası: Brent'in işlem bandı daha da daraldı",
+      "time": "17:55"
+    },
+    {
+      "id": "bk-extra-4",
+      "section": "petrochemical",
+      "slug": "polymer-exports-quarterly-record-1404",
+      "title": "Emtia borsası: ihracat sınıfı polimer işlemleri günlük rekor kırdı",
+      "time": "15:40"
+    },
+    {
+      "id": "bk-extra-2",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "Yeni terminalden ilk kondensat kargosu yüklendi",
+      "time": "12:20"
+    },
+    {
+      "id": "bk-extra-3",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "Metanol ünitesi kapasitenin istikrarlı yüzde 95'ine ulaştı",
+      "time": "09:15"
+    },
+    {
+      "id": "bk-methanol-complex-startup-1404",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "1,65 milyon ton kapasiteli yeni metanol kompleksi devreye girdi",
+      "time": "08:40"
+    },
+    {
+      "id": "bk-grid-summer-peak-record-1404",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "1404 yazında elektrik talebi yeni bir rekora ulaştı",
+      "time": "08:15"
+    },
+    {
+      "id": "bk-crude-condensate-exports-q1-1404",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "Ham petrol ve kondensat ihracatı 1404 ilkbaharında arttı",
+      "time": "07:45"
+    }
+  ]
+}

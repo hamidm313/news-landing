@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "bk-extra-1",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "هشدار مصرف: بار شبکه دوباره به محدوده بحرانی نزدیک شد",
+      "time": "۱۸:۰۵"
+    },
+    {
+      "id": "bk-extra-5",
+      "section": "oil",
+      "slug": "brent-range-analysis-late-summer-1404",
+      "title": "میز تحلیل: دامنه نوسان برنت باریک‌تر شد",
+      "time": "۱۷:۵۵"
+    },
+    {
+      "id": "bk-extra-4",
+      "section": "petrochemical",
+      "slug": "polymer-exports-quarterly-record-1404",
+      "title": "بورس کالا: معاملات گریدهای صادراتی پلیمر رکورد روزانه زد",
+      "time": "۱۵:۴۰"
+    },
+    {
+      "id": "bk-extra-2",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "نخستین محموله میعانات از پایانه جدید بارگیری شد",
+      "time": "۱۲:۲۰"
+    },
+    {
+      "id": "bk-extra-3",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "واحد متانول به ظرفیت پایدار ۹۵ درصد رسید",
+      "time": "۰۹:۱۵"
+    },
+    {
+      "id": "bk-methanol-complex-startup-1404",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "مجتمع متانول جدید با ظرفیت ۱٬۶۵ میلیون تن راه‌اندازی شد",
+      "time": "۰۸:۴۰"
+    },
+    {
+      "id": "bk-grid-summer-peak-record-1404",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "مصرف برق در تابستان ۱۴۰۴ به رکورد تازه رسید",
+      "time": "۰۸:۱۵"
+    },
+    {
+      "id": "bk-crude-condensate-exports-q1-1404",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "صادرات نفت خام و میعانات در بهار ۱۴۰۴ افزایش یافت",
+      "time": "۰۷:۴۵"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "oil",
+    "title": "Petrol Servisi",
+    "description": "1404 yılında yukarı akış, ihracat, rafinaj ve petrol fiyatı eğilimleri. Veriler örnek ve gerçek dışıdır.",
+    "accent": "#0f766e",
+    "topics": [
+      {
+        "slug": "upstream",
+        "title": "Yukarı akış"
+      },
+      {
+        "slug": "exports",
+        "title": "İhracat"
+      },
+      {
+        "slug": "refining",
+        "title": "Rafinaj"
+      },
+      {
+        "slug": "prices",
+        "title": "Fiyatlar"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "oil-001",
+      "slug": "southern-field-redevelopment-contract-1404",
+      "section": "oil",
+      "topic": "upstream",
+      "title": "Güneydeki olgun bir petrol sahası için yeniden geliştirme sözleşmesi imzalandı",
+      "lead": "Bu örnekte, eski bir kara sahasının üretimini artırmak için dört yılda günde 85.000 varil ekleme hedefiyle bir sözleşme imzalandı.",
+      "body": [
+        "Bu haberin kurgusal anlatımına göre proje 1,9 milyar varsayımsal para birimi değerinde olup 40 yeni kuyu, toplama boru hatlarının yenilenmesi ve yeni bir tuz giderme ünitesini kapsıyor.",
+        "Aynı senaryoda sahanın geri kazanım faktörü, gaz enjeksiyonu ve rezervuar basınç yönetimiyle yüzde 24'ten yüzde 31'e çıkıyor. İlk belirgin üretim artışı, operasyonların başlamasından 18 ay sonra bekleniyor.",
+        "Bu metin gerçek bir olayı aktarmaz; her rakam, gövde ve zaman aralığı petrol servisi sayfasını göstermek için oluşturulmuştur."
+      ],
+      "tags": [
+        "yukarı akış",
+        "saha yeniden geliştirme",
+        "artırılmış üretim",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/06/02",
+      "dateGregorian": "2025-08-24",
+      "publishedAt": "2025-08-24T09:10:00+03:30",
+      "readingMinutes": 4,
+      "views": 61230,
+      "image": "/api/media/oil/southern-field-redevelopment-contract-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "oil-002",
+      "slug": "crude-condensate-exports-q1-1404",
+      "section": "oil",
+      "topic": "exports",
+      "title": "Ham petrol ve kondensat ihracatı 1404 ilkbaharında arttı",
+      "lead": "Bu örneğin kurgusal verilerine göre ilk çeyrek ihracatı günde ortalama 1,65 milyon varil oldu; kışa göre yaklaşık yüzde 7 fazla.",
+      "body": [
+        "Bu raporun varsayımsal rakamlarına göre Doğu Asya yüzde 68 payla başlıca varış noktasıydı ve gaz kondensatı tüm kargoların yaklaşık beşte birini oluşturdu.",
+        "Aynı senaryoda ihracat terminalleri yakınındaki yüzer depolama 18 ayın en düşük seviyesine indi; bu örnekte teslimatların daha akıcı hâle geldiğinin işareti olarak yorumlandı.",
+        "Bu haber uydurmadır ve petrol servisinde ihracat verilerinin nasıl görüntülendiğini test etmek için hazırlanmıştır; hiçbir sayısı gerçek bir kaynağa dayanmaz."
+      ],
+      "tags": [
+        "ihracat",
+        "ham petrol",
+        "gaz kondensatı",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/05/31",
+      "dateGregorian": "2025-08-22",
+      "publishedAt": "2025-08-22T07:45:00+03:30",
+      "readingMinutes": 3,
+      "views": 78450,
+      "image": "/api/media/oil/crude-condensate-exports-q1-1404",
+      "featured": true,
+      "breaking": true
+    },
+    {
+      "id": "oil-003",
+      "slug": "refinery-upgrade-gasoline-output-1404",
+      "section": "oil",
+      "topic": "refining",
+      "title": "Rafineri iyileştirmesi benzin üretimini artırdı, kükürdü düşürdü",
+      "lead": "Bu örnekte bir rafinerinin yeni arıtma ünitesi, günde 12 milyon litre Euro-5 benzin kapasitesi ekledi.",
+      "body": [
+        "Bu haberin kurgusal metnine göre proje bir katalitik reforming ünitesi ile bir kükürt giderme ünitesini içeriyor ve yatırımın 950 milyon varsayımsal para birimi olduğu belirtiliyor.",
+        "Aynı senaryoda çıkış benzinindeki ortalama kükürt 50'den 10 ppm'in altına indi ve rafinerinin fuel-oil verimi yaklaşık yüzde 15 düştü.",
+        "Bu metindeki her rakam ve teknik özellik varsayımsaldır ve yalnızca bu demoda rafinaj haberlerinin nasıl işlendiğini göstermek için yazılmıştır."
+      ],
+      "tags": [
+        "rafinaj",
+        "benzin",
+        "kükürt giderme",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/05/23",
+      "dateGregorian": "2025-08-14",
+      "publishedAt": "2025-08-14T14:25:00+03:30",
+      "readingMinutes": 4,
+      "views": 40120,
+      "image": "/api/media/oil/refinery-upgrade-gasoline-output-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "oil-004",
+      "slug": "brent-range-analysis-late-summer-1404",
+      "section": "oil",
+      "topic": "prices",
+      "title": "Örnek analiz: Brent yaz sonuna kadar dar bir bantta kalıyor",
+      "lead": "Bu varsayımsal notta Demo Analiz Masası, Brent'in 78 ile 85 kurgusal birim arasında dalgalanmasını bekliyor.",
+      "body": [
+        "Bu analizin kurgusal varsayımlarına göre mevsimsel rafineri talebi ve istikrarlı arz iki dengeleyici güçtür ve bandın kırılması yalnızca bir arz şokuyla olasıdır.",
+        "Aynı metinde ağır ve hafif sepet arasındaki kalite farkı hafifçe açıldı; varsayımsal yazar bunu rafinerilerin bu sezon daha hafif hammaddeyi tercih etmesi olarak okuyor.",
+        "Bu not yatırım tavsiyesi değildir, gerçek verisi yoktur ve yalnızca bu demonun petrol servisindeki piyasa analizi biçimini göstermek için vardır."
+      ],
+      "tags": [
+        "fiyatlar",
+        "Brent",
+        "piyasa analizi",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Demo Analiz Masası",
+      "dateJalali": "1404/05/15",
+      "dateGregorian": "2025-08-06",
+      "publishedAt": "2025-08-06T17:30:00+03:30",
+      "readingMinutes": 3,
+      "views": 52310,
+      "image": "/api/media/oil/brent-range-analysis-late-summer-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-005",
+      "slug": "enhanced-oil-recovery-pilot-results-1404",
+      "section": "oil",
+      "topic": "upstream",
+      "title": "Artırılmış üretim pilotu daha yüksek geri kazanım oranı bildirdi",
+      "lead": "Bu örnekte bir test bloğunda akıllı su enjeksiyonu, iki yılda geri kazanım oranını 4 puan artırdı.",
+      "body": [
+        "Bu raporun kurgusal rakamlarına göre test bloğunda altı üretim ve üç enjeksiyon kuyusu kullanıldı; enjekte edilen suyun tuzluluğu, petrolün kayaya yapışmasını bozacak şekilde ayarlandı.",
+        "Aynı senaryoda operatör, yöntemin tüm sahaya yayılmasının on yılda yaklaşık 90 milyon varil kümülatif üretim ekleyeceğini söylüyor.",
+        "Bu metin kaynaklı değildir; tüm teknik ve ekonomik ayrıntıları yukarı akış haber yapısını göstermek için oluşturulmuştur."
+      ],
+      "tags": [
+        "yukarı akış",
+        "artırılmış üretim",
+        "su enjeksiyonu",
+        "1404"
+      ],
+      "author": "Saha Muhabirliği",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/05/07",
+      "dateGregorian": "2025-07-29",
+      "publishedAt": "2025-07-29T10:05:00+03:30",
+      "readingMinutes": 3,
+      "views": 21770,
+      "image": "/api/media/oil/enhanced-oil-recovery-pilot-results-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-006",
+      "slug": "floating-storage-terminal-flexibility-1404",
+      "section": "oil",
+      "topic": "exports",
+      "title": "Yeni yüzer depolama ihracat terminaline esneklik kattı",
+      "lead": "Bu örnekte yükleme programlarını daha iyi yönetmek için ana ihracat terminaline 2 milyon varillik bir depolama gemisi eklendi.",
+      "body": [
+        "Bu haberin varsayımsal metnine göre yeni gemi, yüksek dalgalı günlerde yüklemenin tam durmadan sürmesini sağlıyor ve tanker bekleme süresini yaklaşık 11 saat kısaltıyor.",
+        "Aynı senaryoda operatör, bu yedek kapasitenin gemi sürastarya maliyetlerini yılda yaklaşık 7 milyon varsayımsal para birimi düşürdüğünü söylüyor.",
+        "Bu haber uydurmadır ve yalnızca bu demonun petrol servisindeki ihracat haber listesini tamamlamak için yazılmıştır."
+      ],
+      "tags": [
+        "ihracat",
+        "yüzer depolama",
+        "petrol terminali",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/04/26",
+      "dateGregorian": "2025-07-17",
+      "publishedAt": "2025-07-17T13:40:00+03:30",
+      "readingMinutes": 2,
+      "views": 17640,
+      "image": "/api/media/oil/floating-storage-terminal-flexibility-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-007",
+      "slug": "refining-margins-narrow-report-1404",
+      "section": "oil",
+      "topic": "refining",
+      "title": "Örnek rapor: ürün arzı iyileşince rafinaj marjları daraldı",
+      "lead": "Bu örnekte varsayımsal bir bölgesel rafinaj marjı endeksi, önceki aya göre yaklaşık yüzde 18 geriledi.",
+      "body": [
+        "Bu raporun kurgusal rakamlarına göre bakımdan dönen birkaç rafinaj ünitesi ile artan benzin ve motorin stokları marjlar üzerinde aşağı yönlü baskı oluşturdu.",
+        "Aynı varsayımsal metinde, soğuk sezon yaklaştıkça ve ısıtma motorin talebi arttıkça düşüşün bir kısmının geri döneceği bekleniyor.",
+        "Bu içeriğin kaynaklı verisi yoktur ve yalnızca petrol servisindeki piyasa raporu biçimini göstermek için oluşturulmuştur."
+      ],
+      "tags": [
+        "rafinaj",
+        "marjlar",
+        "petrol ürünleri",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Demo Analiz Masası",
+      "dateJalali": "1404/04/13",
+      "dateGregorian": "2025-07-04",
+      "publishedAt": "2025-07-04T16:15:00+03:30",
+      "readingMinutes": 2,
+      "views": 14980,
+      "image": "/api/media/oil/refining-margins-narrow-report-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "oil-008",
+      "slug": "heavy-crude-discount-widens-1404",
+      "section": "oil",
+      "topic": "prices",
+      "title": "Kalite farkının açılmasıyla ağır ham petrol iskontosu genişledi",
+      "lead": "Bu örnekte ağır ham petrol ile hafif sepet arasındaki fiyat farkı varil başına 6,5 kurgusal birime ulaştı.",
+      "body": [
+        "Bu analizin kurgusal varsayımlarına göre bazı bölgesel rafinerilerdeki sınırlı dönüşüm ünitesi kapasitesi, ağır hammadde talebini zayıflattı ve iskontosunu derinleştirdi.",
+        "Aynı senaryoda birkaç yeni koklaştırma ünitesi programa uygun devreye girerse iskontonun ilerleyen çeyreklerde bir miktar daralması bekleniyor.",
+        "Bu not alım-satım tavsiyesi değildir ve tüm sayıları bu demoda fiyat analizi yapısını göstermek için oluşturulmuştur."
+      ],
+      "tags": [
+        "fiyatlar",
+        "ağır ham petrol",
+        "kalite farkı",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Demo Analiz Masası",
+      "dateJalali": "1404/03/29",
+      "dateGregorian": "2025-06-19",
+      "publishedAt": "2025-06-19T11:55:00+03:30",
+      "readingMinutes": 2,
+      "views": 16210,
+      "image": "/api/media/oil/heavy-crude-discount-widens-1404",
+      "featured": false,
+      "breaking": false
+    }
+  ]
+}

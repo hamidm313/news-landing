@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "bk-extra-1",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "Demand alert: grid load again nears the critical band",
+      "time": "18:05"
+    },
+    {
+      "id": "bk-extra-5",
+      "section": "oil",
+      "slug": "brent-range-analysis-late-summer-1404",
+      "title": "Analysis desk: Brent's trading range tightens further",
+      "time": "17:55"
+    },
+    {
+      "id": "bk-extra-4",
+      "section": "petrochemical",
+      "slug": "polymer-exports-quarterly-record-1404",
+      "title": "Commodity exchange: export-grade polymer trades hit a daily record",
+      "time": "15:40"
+    },
+    {
+      "id": "bk-extra-2",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "First condensate cargo loads from the new terminal",
+      "time": "12:20"
+    },
+    {
+      "id": "bk-extra-3",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "Methanol unit reaches a stable 95 percent of capacity",
+      "time": "09:15"
+    },
+    {
+      "id": "bk-methanol-complex-startup-1404",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "New methanol complex starts up with 1.65 million tonnes capacity",
+      "time": "08:40"
+    },
+    {
+      "id": "bk-grid-summer-peak-record-1404",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "Summer 1404 electricity demand hits a fresh record",
+      "time": "08:15"
+    },
+    {
+      "id": "bk-crude-condensate-exports-q1-1404",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "Crude and condensate exports rose in spring 1404",
+      "time": "07:45"
+    }
+  ]
+}

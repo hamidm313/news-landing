@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "energy",
+    "title": "Energy",
+    "description": "Electricity, gas, renewables and energy-efficiency news for the year 1404. All figures and sources are fictional.",
+    "accent": "#f97316",
+    "topics": [
+      {
+        "slug": "electricity",
+        "title": "Electricity"
+      },
+      {
+        "slug": "gas",
+        "title": "Gas"
+      },
+      {
+        "slug": "renewables",
+        "title": "Renewables"
+      },
+      {
+        "slug": "efficiency",
+        "title": "Efficiency"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "energy-001",
+      "slug": "grid-summer-peak-record-1404",
+      "section": "energy",
+      "topic": "electricity",
+      "title": "Summer 1404 electricity demand hits a fresh record",
+      "lead": "On this demo's invented data, national grid load passed 74,000 MW in the early-afternoon hours and operators asked industrial users to shift consumption.",
+      "body": [
+        "In this mock scenario the grid management company said Wednesday's peak load reached 74,300 MW, roughly 5.2 percent above last year's high. Widespread heat and heavier use of cooling systems were named as the main drivers.",
+        "On the same invented data, about 900 large industrial plants have joined a voluntary cooperation scheme to move part of their load to night hours in exchange for a tariff discount. Officials put the shift at close to 2,100 MW of capacity.",
+        "This item exists only to show the layout of the energy service page and carries no real news value; every figure, body and quote is hypothetical."
+      ],
+      "tags": [
+        "electricity",
+        "peak load",
+        "demand response",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "Ministry of Energy press office (mock)",
+      "dateJalali": "1404/06/04",
+      "dateGregorian": "2025-08-26",
+      "publishedAt": "2025-08-26T08:15:00+03:30",
+      "readingMinutes": 4,
+      "views": 91240,
+      "image": "/api/media/energy/grid-summer-peak-record-1404",
+      "featured": true,
+      "breaking": true
+    },
+    {
+      "id": "energy-002",
+      "slug": "solar-capacity-milestone-1404",
+      "section": "energy",
+      "topic": "renewables",
+      "title": "Installed solar capacity passes a demo milestone of 5,000 MW",
+      "lead": "In this sample, twelve new plants in the central and southern provinces lifted the country's total solar capacity to 5,120 MW.",
+      "body": [
+        "On this demo's invented data, twelve solar plants with a combined 740 MW have come online over the past three months. The largest is described as a 250 MW farm on the edge of the central desert.",
+        "In the same scenario, renewables now cover 6.3 percent of national power output, with a hypothetical programme target of 10 percent by the end of 1404.",
+        "Every number and name in this text is hypothetical and is used only to show how renewables news appears on this page."
+      ],
+      "tags": [
+        "renewables",
+        "solar",
+        "installed capacity",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/05/27",
+      "dateGregorian": "2025-08-18",
+      "publishedAt": "2025-08-18T11:40:00+03:30",
+      "readingMinutes": 3,
+      "views": 43110,
+      "image": "/api/media/energy/solar-capacity-milestone-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "energy-003",
+      "slug": "gas-winter-storage-plan-1404",
+      "section": "energy",
+      "topic": "gas",
+      "title": "Gas storage plan for winter is on schedule",
+      "lead": "In this sample, the gas network operator says two underground stores are 82 percent full and summer injection is continuing as planned.",
+      "body": [
+        "On this report's invented figures, the recoverable capacity of the two main stores will reach 4.4 billion cubic metres by late Shahrivar. That is described as enough to cover peak demand for about ten cold winter days.",
+        "In the same hypothetical scenario, residential gas use this summer ran 3 percent below last year, and the saving was routed into store injection.",
+        "This text is a sample built to test how gas-sector news is displayed; none of the data is sourced."
+      ],
+      "tags": [
+        "gas",
+        "storage",
+        "winter",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/05/19",
+      "dateGregorian": "2025-08-10",
+      "publishedAt": "2025-08-10T16:05:00+03:30",
+      "readingMinutes": 3,
+      "views": 30880,
+      "image": "/api/media/energy/gas-winter-storage-plan-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-004",
+      "slug": "appliance-labelling-rules-1404",
+      "section": "energy",
+      "topic": "efficiency",
+      "title": "New appliance energy labels take effect for the 1404 buying season",
+      "lead": "In this mock scenario, efficiency ratings for fridges, coolers and washing machines get stricter, and low-performing models leave the shelves.",
+      "body": [
+        "On this item's hypothetical text, the «A» threshold for fridge-freezers drops about 15 percent, and retailers get six months to clear old stock.",
+        "In the same sample, the implementing body's invented estimate is that full rollout could shave the equivalent of 900 MW off summer peak load by 1406.",
+        "This piece was produced only to fill the sample energy service and refers to no real event."
+      ],
+      "tags": [
+        "efficiency",
+        "energy label",
+        "appliances",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Ministry of Energy press office (mock)",
+      "dateJalali": "1404/05/11",
+      "dateGregorian": "2025-08-02",
+      "publishedAt": "2025-08-02T09:50:00+03:30",
+      "readingMinutes": 2,
+      "views": 18760,
+      "image": "/api/media/energy/appliance-labelling-rules-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-005",
+      "slug": "northeast-wind-farm-financing-1404",
+      "section": "energy",
+      "topic": "renewables",
+      "title": "Financing closed for a 300 MW wind farm in the northeast",
+      "lead": "In this sample, a domestic consortium signed a financing deal to build 75 turbines along a windy corridor in the northeast.",
+      "body": [
+        "On this item's invented account, the project's investment value is 320 million hypothetical currency units, 70 percent covered by domestic bank facilities. Construction is put at 20 months.",
+        "In the same scenario, the site's capacity factor is estimated near 38 percent thanks to steady wind, a high figure for this sample.",
+        "Every detail in this text is fabricated and written only to show how renewables coverage looks on the energy page."
+      ],
+      "tags": [
+        "renewables",
+        "wind",
+        "financing",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/04/29",
+      "dateGregorian": "2025-07-20",
+      "publishedAt": "2025-07-20T13:20:00+03:30",
+      "readingMinutes": 3,
+      "views": 22470,
+      "image": "/api/media/energy/northeast-wind-farm-financing-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-006",
+      "slug": "cross-border-power-export-renewed-1404",
+      "section": "energy",
+      "topic": "electricity",
+      "title": "Cross-border electricity export contract renewed for three years",
+      "lead": "In this sample, a deal to sell power to two neighbouring countries has been renewed with a 1,200 MW ceiling in off-peak hours.",
+      "body": [
+        "On this item's hypothetical text, exports run only when domestic load is below a set threshold, and home demand always comes first. In the scenario, the contract's hard-currency income is spent on upgrading transmission lines.",
+        "In the same invented account, exchanged volume last year was about 4.1 TWh, and the sample forecast points to 6 percent growth in the new period.",
+        "This piece has no real data and is included only to complete the electricity news list in this demo."
+      ],
+      "tags": [
+        "electricity",
+        "exports",
+        "power trade",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/04/17",
+      "dateGregorian": "2025-07-08",
+      "publishedAt": "2025-07-08T10:30:00+03:30",
+      "readingMinutes": 2,
+      "views": 26540,
+      "image": "/api/media/energy/cross-border-power-export-renewed-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-007",
+      "slug": "smart-meter-rollout-progress-1404",
+      "section": "energy",
+      "topic": "efficiency",
+      "title": "Smart-meter rollout reaches 4 million points",
+      "lead": "In this scenario, smart-meter installation for high-use and industrial customers passed 4 million units, enabling real-time load management.",
+      "body": [
+        "On this report's invented figures, smart-meter coverage has reached 92 percent in industry and 45 percent among high-use households. The sample target is to finish the industrial segment by the end of 1404.",
+        "In the same account, real-time data from these meters let the operator trim about 800 MW of load during the summer peak in coordination with customers.",
+        "This is a sample story with no sourced data, prepared only to show the article structure in the energy service."
+      ],
+      "tags": [
+        "efficiency",
+        "smart meter",
+        "load management",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "Ministry of Energy press office (mock)",
+      "dateJalali": "1404/04/06",
+      "dateGregorian": "2025-06-27",
+      "publishedAt": "2025-06-27T12:00:00+03:30",
+      "readingMinutes": 3,
+      "views": 15230,
+      "image": "/api/media/energy/smart-meter-rollout-progress-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-008",
+      "slug": "grid-battery-storage-pilot-1404",
+      "section": "energy",
+      "topic": "renewables",
+      "title": "First large battery-storage pilot connects to the grid",
+      "lead": "In this sample, a 120 MW / 240 MWh battery store came online to steady frequency and time-shift solar output.",
+      "body": [
+        "On this item's invented data, the store can push midday output from neighbouring solar plants back onto the grid during the two-hour evening peak. Its response time is described as under one second.",
+        "In the same scenario, the operator says that if the one-year trial succeeds, similar capacity will be repeated at four other sites nationwide.",
+        "All numbers and claims in this text are hypothetical; its only job is to show the news format on this page."
+      ],
+      "tags": [
+        "renewables",
+        "battery storage",
+        "grid stability",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/03/24",
+      "dateGregorian": "2025-06-14",
+      "publishedAt": "2025-06-14T15:45:00+03:30",
+      "readingMinutes": 3,
+      "views": 19980,
+      "image": "/api/media/energy/grid-battery-storage-pilot-1404",
+      "featured": false,
+      "breaking": false
+    }
+  ]
+}

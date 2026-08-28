@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "bk-extra-1",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "تحذير الطلب: حمل الشبكة يقترب مجدداً من النطاق الحرج",
+      "time": "١٨:٠٥"
+    },
+    {
+      "id": "bk-extra-5",
+      "section": "oil",
+      "slug": "brent-range-analysis-late-summer-1404",
+      "title": "منضدة التحليل: نطاق تداول برنت يزداد ضيقاً",
+      "time": "١٧:٥٥"
+    },
+    {
+      "id": "bk-extra-4",
+      "section": "petrochemical",
+      "slug": "polymer-exports-quarterly-record-1404",
+      "title": "بورصة السلع: تداولات البوليمر بمواصفات تصديرية تسجّل رقماً يومياً قياسياً",
+      "time": "١٥:٤٠"
+    },
+    {
+      "id": "bk-extra-2",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "تحميل أول شحنة مكثّفات من المحطة الجديدة",
+      "time": "١٢:٢٠"
+    },
+    {
+      "id": "bk-extra-3",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "وحدة الميثانول تبلغ 95 بالمئة مستقرة من الطاقة",
+      "time": "٠٩:١٥"
+    },
+    {
+      "id": "bk-methanol-complex-startup-1404",
+      "section": "petrochemical",
+      "slug": "methanol-complex-startup-1404",
+      "title": "بدء تشغيل مجمّع ميثانول جديد بطاقة 1.65 مليون طن",
+      "time": "٠٨:٤٠"
+    },
+    {
+      "id": "bk-grid-summer-peak-record-1404",
+      "section": "energy",
+      "slug": "grid-summer-peak-record-1404",
+      "title": "الطلب على الكهرباء يسجّل رقماً قياسياً جديداً في صيف ١٤٠٤",
+      "time": "٠٨:١٥"
+    },
+    {
+      "id": "bk-crude-condensate-exports-q1-1404",
+      "section": "oil",
+      "slug": "crude-condensate-exports-q1-1404",
+      "title": "ارتفاع صادرات النفط الخام والمكثّفات في ربيع ١٤٠٤",
+      "time": "٠٧:٤٥"
+    }
+  ]
+}

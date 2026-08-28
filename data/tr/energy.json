@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "energy",
+    "title": "Enerji Servisi",
+    "description": "1404 yılı için elektrik, doğal gaz, yenilenebilir enerji ve enerji verimliliği haberleri. Tüm rakamlar ve kaynaklar kurgusaldır.",
+    "accent": "#f97316",
+    "topics": [
+      {
+        "slug": "electricity",
+        "title": "Elektrik"
+      },
+      {
+        "slug": "gas",
+        "title": "Doğal gaz"
+      },
+      {
+        "slug": "renewables",
+        "title": "Yenilenebilir"
+      },
+      {
+        "slug": "efficiency",
+        "title": "Verimlilik"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "energy-001",
+      "slug": "grid-summer-peak-record-1404",
+      "section": "energy",
+      "topic": "electricity",
+      "title": "1404 yazında elektrik talebi yeni bir rekora ulaştı",
+      "lead": "Bu demonun kurgusal verilerine göre ulusal şebeke yükü öğleden sonranın ilk saatlerinde 74.000 MW'ı aştı ve operatörler sanayiden tüketimi kaydırmasını istedi.",
+      "body": [
+        "Bu örnek senaryoda şebeke yönetim şirketi, çarşamba günkü tepe yükünün 74.300 MW'a ulaştığını ve geçen yılın zirvesinin yaklaşık yüzde 5,2 üzerinde olduğunu bildirdi. Yaygın sıcaklık ve soğutma sistemlerinin daha yoğun kullanımı başlıca etken olarak gösterildi.",
+        "Aynı kurgusal verilere göre yaklaşık 900 büyük sanayi tesisi, tarife indirimi karşılığında yükünün bir bölümünü gece saatlerine kaydırmak için gönüllü işbirliği programına katıldı. Yetkililer bu kaymayı yaklaşık 2.100 MW kapasite olarak veriyor.",
+        "Bu haber yalnızca enerji servisi sayfasının düzenini göstermek için hazırlanmıştır ve gerçek bir haber değeri taşımaz; tüm rakamlar, kurumlar ve alıntılar varsayımsaldır."
+      ],
+      "tags": [
+        "elektrik",
+        "tepe yük",
+        "talep yönetimi",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Enerji Bakanlığı basın ofisi (örnek)",
+      "dateJalali": "1404/06/04",
+      "dateGregorian": "2025-08-26",
+      "publishedAt": "2025-08-26T08:15:00+03:30",
+      "readingMinutes": 4,
+      "views": 91240,
+      "image": "/api/media/energy/grid-summer-peak-record-1404",
+      "featured": true,
+      "breaking": true
+    },
+    {
+      "id": "energy-002",
+      "slug": "solar-capacity-milestone-1404",
+      "section": "energy",
+      "topic": "renewables",
+      "title": "Kurulu güneş kapasitesi örnek 5.000 MW eşiğini aştı",
+      "lead": "Bu örnekte, orta ve güney illerdeki on iki yeni santralin devreye girmesi ülkenin toplam güneş kapasitesini 5.120 MW'a çıkardı.",
+      "body": [
+        "Bu demonun kurgusal verilerine göre son üç ayda toplam 740 MW gücünde on iki güneş santrali devreye girdi. En büyüğü, orta çöl kenarında 250 MW'lık bir tarla olarak tanımlanıyor.",
+        "Aynı senaryoda yenilenebilir kaynaklar ulusal elektrik üretiminin yüzde 6,3'ünü karşılıyor; programın varsayımsal hedefi 1404 sonuna kadar yüzde 10.",
+        "Bu metindeki her sayı ve isim varsayımsaldır ve yalnızca yenilenebilir enerji haberlerinin bu sayfada nasıl göründüğünü göstermek için kullanılmıştır."
+      ],
+      "tags": [
+        "yenilenebilir",
+        "güneş",
+        "kurulu güç",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/05/27",
+      "dateGregorian": "2025-08-18",
+      "publishedAt": "2025-08-18T11:40:00+03:30",
+      "readingMinutes": 3,
+      "views": 43110,
+      "image": "/api/media/energy/solar-capacity-milestone-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "energy-003",
+      "slug": "gas-winter-storage-plan-1404",
+      "section": "energy",
+      "topic": "gas",
+      "title": "Kışa yönelik gaz depolama planı takvimine uygun ilerliyor",
+      "lead": "Bu örnekte gaz şebekesi operatörü, iki yeraltı deposunun yüzde 82 dolu olduğunu ve yaz enjeksiyonunun planlandığı gibi sürdüğünü söylüyor.",
+      "body": [
+        "Bu raporun kurgusal rakamlarına göre iki ana deponun geri kazanılabilir kapasitesi Şehrivar sonuna kadar 4,4 milyar metreküpe ulaşacak. Bu miktar, yaklaşık on soğuk kış günü boyunca tepe talebi karşılamaya yeterli olarak tanımlanıyor.",
+        "Aynı varsayımsal senaryoda bu yaz konut doğal gaz tüketimi geçen yıla göre yüzde 3 düşük seyretti ve elde edilen tasarruf depo enjeksiyonuna yönlendirildi.",
+        "Bu metin, gaz sektörü haberlerinin nasıl görüntülendiğini test etmek için hazırlanmış bir örnektir; verilerin hiçbiri kaynaklı değildir."
+      ],
+      "tags": [
+        "doğal gaz",
+        "depolama",
+        "kış",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/05/19",
+      "dateGregorian": "2025-08-10",
+      "publishedAt": "2025-08-10T16:05:00+03:30",
+      "readingMinutes": 3,
+      "views": 30880,
+      "image": "/api/media/energy/gas-winter-storage-plan-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-004",
+      "slug": "appliance-labelling-rules-1404",
+      "section": "energy",
+      "topic": "efficiency",
+      "title": "Yeni cihaz enerji etiketleri 1404 alışveriş sezonunda yürürlüğe girdi",
+      "lead": "Bu örnek senaryoda buzdolabı, klima ve çamaşır makinelerinin verimlilik sınıflandırması sıkılaştırılıyor ve düşük performanslı modeller raflardan kalkıyor.",
+      "body": [
+        "Bu haberin varsayımsal metnine göre buzdolabı-dondurucular için «A» eşiği yaklaşık yüzde 15 düşüyor ve perakendecilere eski stoğu eritmek için altı ay tanınıyor.",
+        "Aynı örnekte uygulayıcı kurumun kurgusal tahmini, programın tam olarak hayata geçmesinin 1406 yılına kadar yaz tepe yükünden 900 MW eşdeğeri düşürebileceği yönünde.",
+        "Bu içerik yalnızca örnek enerji servisini doldurmak için üretilmiştir ve gerçek bir olaya atıfta bulunmaz."
+      ],
+      "tags": [
+        "verimlilik",
+        "enerji etiketi",
+        "ev aletleri",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Enerji Bakanlığı basın ofisi (örnek)",
+      "dateJalali": "1404/05/11",
+      "dateGregorian": "2025-08-02",
+      "publishedAt": "2025-08-02T09:50:00+03:30",
+      "readingMinutes": 2,
+      "views": 18760,
+      "image": "/api/media/energy/appliance-labelling-rules-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-005",
+      "slug": "northeast-wind-farm-financing-1404",
+      "section": "energy",
+      "topic": "renewables",
+      "title": "Kuzeydoğuda 300 MW'lık rüzgâr santralinin finansmanı tamamlandı",
+      "lead": "Bu örnekte yerli bir konsorsiyum, kuzeydoğudaki rüzgârlı bir koridorda 75 türbin kurmak için finansman anlaşması imzaladı.",
+      "body": [
+        "Bu haberin kurgusal anlatımına göre projenin yatırım değeri 320 milyon varsayımsal para birimi olup yüzde 70'i yerli banka kredileriyle karşılanıyor. İnşaat süresi 20 ay olarak veriliyor.",
+        "Aynı senaryoda sahanın kapasite faktörü, istikrarlı rüzgâr sayesinde yaklaşık yüzde 38 olarak tahmin ediliyor; bu örnek için yüksek bir değer.",
+        "Bu metindeki her ayrıntı uydurmadır ve yalnızca yenilenebilir enerji haberlerinin enerji sayfasında nasıl göründüğünü göstermek için yazılmıştır."
+      ],
+      "tags": [
+        "yenilenebilir",
+        "rüzgâr",
+        "finansman",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/04/29",
+      "dateGregorian": "2025-07-20",
+      "publishedAt": "2025-07-20T13:20:00+03:30",
+      "readingMinutes": 3,
+      "views": 22470,
+      "image": "/api/media/energy/northeast-wind-farm-financing-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-006",
+      "slug": "cross-border-power-export-renewed-1404",
+      "section": "energy",
+      "topic": "electricity",
+      "title": "Sınır ötesi elektrik ihracatı sözleşmesi üç yıl uzatıldı",
+      "lead": "Bu örnekte iki komşu ülkeye elektrik satışı anlaşması, yoğun olmayan saatlerde 1.200 MW tavanla yenilendi.",
+      "body": [
+        "Bu haberin varsayımsal metnine göre ihracat yalnızca iç yük belirli bir eşiğin altındayken yapılıyor ve öncelik her zaman iç tüketimde. Senaryoda sözleşmenin döviz geliri iletim hatlarının yenilenmesine harcanıyor.",
+        "Aynı kurgusal anlatımda geçen yılki takas hacmi yaklaşık 4,1 TWh oldu ve örnek tahmin yeni dönemde yüzde 6 büyümeye işaret ediyor.",
+        "Bu içerik gerçek veri içermez ve yalnızca bu demodaki elektrik haber listesini tamamlamak için eklenmiştir."
+      ],
+      "tags": [
+        "elektrik",
+        "ihracat",
+        "enerji ticareti",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/04/17",
+      "dateGregorian": "2025-07-08",
+      "publishedAt": "2025-07-08T10:30:00+03:30",
+      "readingMinutes": 2,
+      "views": 26540,
+      "image": "/api/media/energy/cross-border-power-export-renewed-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-007",
+      "slug": "smart-meter-rollout-progress-1404",
+      "section": "energy",
+      "topic": "efficiency",
+      "title": "Akıllı sayaç kurulumu 4 milyon noktaya ulaştı",
+      "lead": "Bu senaryoda yüksek tüketimli ve sanayi aboneleri için akıllı sayaç kurulumu 4 milyon adedi geçti ve anlık yük yönetimi mümkün oldu.",
+      "body": [
+        "Bu raporun kurgusal rakamlarına göre akıllı sayaç kapsamı sanayide yüzde 92'ye, yüksek tüketimli hanelerde yüzde 45'e ulaştı. Örnek hedef, sanayi bölümünü 1404 sonuna kadar tamamlamak.",
+        "Aynı anlatımda bu sayaçlardan gelen anlık veriler, operatörün yaz zirvesinde abonelerle koordineli olarak yaklaşık 800 MW yük kısmasını sağladı.",
+        "Bu, kaynaklı verisi olmayan örnek bir haberdir; yalnızca enerji servisindeki makale yapısını göstermek için hazırlanmıştır."
+      ],
+      "tags": [
+        "verimlilik",
+        "akıllı sayaç",
+        "yük yönetimi",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Enerji Bakanlığı basın ofisi (örnek)",
+      "dateJalali": "1404/04/06",
+      "dateGregorian": "2025-06-27",
+      "publishedAt": "2025-06-27T12:00:00+03:30",
+      "readingMinutes": 3,
+      "views": 15230,
+      "image": "/api/media/energy/smart-meter-rollout-progress-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "energy-008",
+      "slug": "grid-battery-storage-pilot-1404",
+      "section": "energy",
+      "topic": "renewables",
+      "title": "İlk büyük ölçekli batarya depolama pilotu şebekeye bağlandı",
+      "lead": "Bu örnekte frekansı sabitlemek ve güneş üretimini zamanda kaydırmak için 120 MW / 240 MWh'lik bir batarya deposu devreye girdi.",
+      "body": [
+        "Bu haberin kurgusal verilerine göre depo, komşu güneş santrallerinin öğle üretimini iki saatlik akşam zirvesinde şebekeye geri verebiliyor. Tepki süresi bir saniyenin altında olarak tanımlanıyor.",
+        "Aynı senaryoda operatör, bir yıllık denemenin başarılı olması hâlinde benzer kapasitenin ülke genelinde dört ayrı sahada tekrarlanacağını söylüyor.",
+        "Bu metindeki tüm sayılar ve iddialar varsayımsaldır; tek işlevi bu sayfadaki haber biçimini göstermektir."
+      ],
+      "tags": [
+        "yenilenebilir",
+        "batarya depolama",
+        "şebeke kararlılığı",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/03/24",
+      "dateGregorian": "2025-06-14",
+      "publishedAt": "2025-06-14T15:45:00+03:30",
+      "readingMinutes": 3,
+      "views": 19980,
+      "image": "/api/media/energy/grid-battery-storage-pilot-1404",
+      "featured": false,
+      "breaking": false
+    }
+  ]
+}

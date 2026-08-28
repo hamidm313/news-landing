@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "petrochemical",
+    "title": "Petrochemical",
+    "description": "Production, exports, feedstock and development projects in the petrochemical industry for 1404. Every number is made up.",
+    "accent": "#7c3aed",
+    "topics": [
+      {
+        "slug": "production",
+        "title": "Production"
+      },
+      {
+        "slug": "exports",
+        "title": "Exports"
+      },
+      {
+        "slug": "feedstock",
+        "title": "Feedstock"
+      },
+      {
+        "slug": "projects",
+        "title": "Projects"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "petrochemical-001",
+      "slug": "methanol-complex-startup-1404",
+      "section": "petrochemical",
+      "topic": "projects",
+      "title": "New methanol complex starts up with 1.65 million tonnes capacity",
+      "lead": "In this sample, a methanol unit in the special energy zone joined production and loaded its first export cargo.",
+      "body": [
+        "On this item's invented account, the complex was built with 2.3 billion hypothetical currency units of investment, and its feedstock is natural gas from the trunkline.",
+        "In the same scenario, about 70 percent of output is set aside for export and the rest for domestic downstream units such as formaldehyde and acetic acid. Nameplate capacity is stated at 4,500 tonnes a day.",
+        "This text refers to no real event; every figure and body was built to show the petrochemical service page."
+      ],
+      "tags": [
+        "projects",
+        "methanol",
+        "exports",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/06/05",
+      "dateGregorian": "2025-08-27",
+      "publishedAt": "2025-08-27T08:40:00+03:30",
+      "readingMinutes": 4,
+      "views": 69880,
+      "image": "/api/media/petrochemical/methanol-complex-startup-1404",
+      "featured": true,
+      "breaking": true
+    },
+    {
+      "id": "petrochemical-002",
+      "slug": "polymer-exports-quarterly-record-1404",
+      "section": "petrochemical",
+      "topic": "exports",
+      "title": "Polymer exports set a quarterly record in spring 1404",
+      "lead": "On this sample's invented data, polyethylene and polypropylene exports reached 1.9 million tonnes in the first quarter.",
+      "body": [
+        "On this report's hypothetical figures, stronger demand in Asian markets and the start-up of two new export-grade lines are named as the main drivers of the record.",
+        "In the same scenario, specialty and engineered grades have reached 22 percent of the export mix, read in this sample as a move toward higher-value products.",
+        "This story is fabricated and prepared only to show how export statistics are presented in the petrochemical service."
+      ],
+      "tags": [
+        "exports",
+        "polyethylene",
+        "polypropylene",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/05/30",
+      "dateGregorian": "2025-08-21",
+      "publishedAt": "2025-08-21T12:30:00+03:30",
+      "readingMinutes": 3,
+      "views": 47600,
+      "image": "/api/media/petrochemical/polymer-exports-quarterly-record-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-003",
+      "slug": "ethane-feedstock-allocation-1404",
+      "section": "petrochemical",
+      "topic": "feedstock",
+      "title": "Feedstock committee sets the ethane allocation for new crackers",
+      "lead": "In this sample, three olefin units near completion have been allocated a combined 4.8 million cubic metres of ethane per day.",
+      "body": [
+        "On this item's invented text, the allocation is conditional on physical progress above 90 percent and readiness of gas-transfer infrastructure, and is applied in two stages.",
+        "In the same scenario, the committee says that completing ethane-recovery units at two gas refineries will provide the extra supply for these allocations.",
+        "This piece is not sourced; all its figures and processes were built to show the feedstock news structure in this demo."
+      ],
+      "tags": [
+        "feedstock",
+        "ethane",
+        "olefin cracker",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "Ministry of Energy press office (mock)",
+      "dateJalali": "1404/05/21",
+      "dateGregorian": "2025-08-12",
+      "publishedAt": "2025-08-12T15:10:00+03:30",
+      "readingMinutes": 3,
+      "views": 33450,
+      "image": "/api/media/petrochemical/ethane-feedstock-allocation-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-004",
+      "slug": "pdh-plant-construction-progress-1404",
+      "section": "petrochemical",
+      "topic": "projects",
+      "title": "Propane-dehydrogenation plant passes 80 percent progress",
+      "lead": "In this sample, construction of a PDH unit for 500,000 tonnes of propylene a year has reached 82 percent.",
+      "body": [
+        "On this item's invented data, installation of the main reactor and separation towers is done, and work continues on the hydrogen side-unit. Start-up is targeted for the second half of 1404.",
+        "In the same scenario, the unit's propylene will feed a neighbouring polypropylene complex, completing the local value chain.",
+        "Every number and schedule in this text is hypothetical and used only to show the project-news format."
+      ],
+      "tags": [
+        "projects",
+        "PDH",
+        "propylene",
+        "1404"
+      ],
+      "author": "Field Reporting",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/05/13",
+      "dateGregorian": "2025-08-04",
+      "publishedAt": "2025-08-04T10:50:00+03:30",
+      "readingMinutes": 3,
+      "views": 24990,
+      "image": "/api/media/petrochemical/pdh-plant-construction-progress-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-005",
+      "slug": "domestic-catalyst-production-share-1404",
+      "section": "petrochemical",
+      "topic": "production",
+      "title": "Domestic catalysts cover a bigger share of industry demand",
+      "lead": "In this sample, domestic production of process catalysts now covers 40 percent of the petrochemical industry's yearly need.",
+      "body": [
+        "On this report's invented figures, three catalyst plants reached nameplate capacity last year, with grades for methanol and ammonia units growing the most.",
+        "In the same scenario, the sample target is to raise this share to 60 percent by 1407 and cut the hard-currency dependence tied to catalyst imports.",
+        "This story is not sourced and was prepared only to show the production article structure in this demo's petrochemical service."
+      ],
+      "tags": [
+        "production",
+        "catalyst",
+        "localization",
+        "1404"
+      ],
+      "author": "Energy Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/05/02",
+      "dateGregorian": "2025-07-24",
+      "publishedAt": "2025-07-24T13:05:00+03:30",
+      "readingMinutes": 3,
+      "views": 19430,
+      "image": "/api/media/petrochemical/domestic-catalyst-production-share-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-006",
+      "slug": "urea-ammonia-output-debottleneck-1404",
+      "section": "petrochemical",
+      "topic": "production",
+      "title": "Urea and ammonia output rose after debottlenecking",
+      "lead": "In this sample, upgrading heat exchangers and the compression section raised the effective capacity of two fertiliser complexes by about 8 percent.",
+      "body": [
+        "On this item's hypothetical text, the upgrades were done during a planned 20-day shutdown, and the units returned without incident.",
+        "In the same scenario, part of the added output goes to domestic farm fertiliser and part to regional exports.",
+        "All numbers in this text are fabricated and written only to complete the production news list in this demo."
+      ],
+      "tags": [
+        "production",
+        "urea",
+        "ammonia",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "National company press office (mock)",
+      "dateJalali": "1404/04/21",
+      "dateGregorian": "2025-07-12",
+      "publishedAt": "2025-07-12T11:20:00+03:30",
+      "readingMinutes": 2,
+      "views": 17820,
+      "image": "/api/media/petrochemical/urea-ammonia-output-debottleneck-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-007",
+      "slug": "petrochemical-port-logistics-upgrade-1404",
+      "section": "petrochemical",
+      "topic": "exports",
+      "title": "Port logistics upgrade cuts petrochemical loading time",
+      "lead": "In this sample, two automated bagging lines and a new covered warehouse cut average per-ship loading time by 14 hours.",
+      "body": [
+        "On this item's invented figures, the solids terminal's daily handling capacity rose from 9,000 to 13,000 tonnes, and the truck queue shortened.",
+        "In the same scenario, the operator says the next phase includes a cargo-tracking system and an electronic customs link.",
+        "This story has no real data and was prepared only to show the export news format in this demo's petrochemical service."
+      ],
+      "tags": [
+        "exports",
+        "port logistics",
+        "loading",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Demo Newswire",
+      "dateJalali": "1404/04/09",
+      "dateGregorian": "2025-06-30",
+      "publishedAt": "2025-06-30T14:45:00+03:30",
+      "readingMinutes": 2,
+      "views": 13560,
+      "image": "/api/media/petrochemical/petrochemical-port-logistics-upgrade-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-008",
+      "slug": "gas-feedstock-price-formula-1404",
+      "section": "petrochemical",
+      "topic": "feedstock",
+      "title": "New gas-feedstock price formula takes effect for petrochemical units",
+      "lead": "In this sample, the gas-feedstock price is set from a moving average of several domestic indices plus a seasonal cap, to reduce volatility.",
+      "body": [
+        "On this item's invented text, the new formula has a defined floor and ceiling and is reviewed every three months. The stated aim is to make input costs more predictable for methanol and urea units.",
+        "In the same scenario, a hypothetical industry employers' association welcomes the lower investment risk but is unsure about the level of the seasonal cap.",
+        "This piece is not sourced; all its parts were built to show the feedstock news structure in this demo."
+      ],
+      "tags": [
+        "feedstock",
+        "gas price",
+        "policy",
+        "1404"
+      ],
+      "author": "Business Desk",
+      "source": "Ministry of Energy press office (mock)",
+      "dateJalali": "1404/03/27",
+      "dateGregorian": "2025-06-17",
+      "publishedAt": "2025-06-17T09:30:00+03:30",
+      "readingMinutes": 3,
+      "views": 28310,
+      "image": "/api/media/petrochemical/gas-feedstock-price-formula-1404",
+      "featured": false,
+      "breaking": false
+    }
+  ]
+}

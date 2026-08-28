@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "petrochemical",
+    "title": "Petrokimya Servisi",
+    "description": "1404 yılında petrokimya sanayisinde üretim, ihracat, hammadde ve geliştirme projeleri. Tüm sayılar uydurmadır.",
+    "accent": "#7c3aed",
+    "topics": [
+      {
+        "slug": "production",
+        "title": "Üretim"
+      },
+      {
+        "slug": "exports",
+        "title": "İhracat"
+      },
+      {
+        "slug": "feedstock",
+        "title": "Hammadde"
+      },
+      {
+        "slug": "projects",
+        "title": "Projeler"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "petrochemical-001",
+      "slug": "methanol-complex-startup-1404",
+      "section": "petrochemical",
+      "topic": "projects",
+      "title": "1,65 milyon ton kapasiteli yeni metanol kompleksi devreye girdi",
+      "lead": "Bu örnekte özel enerji bölgesindeki bir metanol ünitesi üretime katıldı ve ilk ihracat kargosunu yükledi.",
+      "body": [
+        "Bu haberin kurgusal anlatımına göre kompleks 2,3 milyar varsayımsal para birimi yatırımla inşa edildi ve hammaddesi ana boru hattından gelen doğal gaz.",
+        "Aynı senaryoda üretimin yaklaşık yüzde 70'i ihracata, kalanı formaldehit ve asetik asit gibi yurt içi alt sektör ünitelerine ayrıldı. Anma kapasitesi günde 4.500 ton olarak belirtiliyor.",
+        "Bu metin gerçek bir olaya atıfta bulunmaz; her rakam ve gövde petrokimya servisi sayfasını göstermek için oluşturulmuştur."
+      ],
+      "tags": [
+        "projeler",
+        "metanol",
+        "ihracat",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/06/05",
+      "dateGregorian": "2025-08-27",
+      "publishedAt": "2025-08-27T08:40:00+03:30",
+      "readingMinutes": 4,
+      "views": 69880,
+      "image": "/api/media/petrochemical/methanol-complex-startup-1404",
+      "featured": true,
+      "breaking": true
+    },
+    {
+      "id": "petrochemical-002",
+      "slug": "polymer-exports-quarterly-record-1404",
+      "section": "petrochemical",
+      "topic": "exports",
+      "title": "Polimer ihracatı 1404 ilkbaharında çeyreklik rekor kırdı",
+      "lead": "Bu örneğin kurgusal verilerine göre polietilen ve polipropilen ihracatı ilk çeyrekte 1,9 milyon tona ulaştı.",
+      "body": [
+        "Bu raporun varsayımsal rakamlarına göre Asya pazarlarındaki güçlü talep ve iki yeni ihracat sınıfı hattının devreye girmesi rekorun başlıca etkenleri olarak gösteriliyor.",
+        "Aynı senaryoda özel ve mühendislik sınıfları ihracat karışımının yüzde 22'sine ulaştı; bu örnekte daha yüksek katma değerli ürünlere yöneliş olarak yorumlanıyor.",
+        "Bu haber uydurmadır ve yalnızca petrokimya servisinde ihracat istatistiklerinin nasıl sunulduğunu göstermek için hazırlanmıştır."
+      ],
+      "tags": [
+        "ihracat",
+        "polietilen",
+        "polipropilen",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/05/30",
+      "dateGregorian": "2025-08-21",
+      "publishedAt": "2025-08-21T12:30:00+03:30",
+      "readingMinutes": 3,
+      "views": 47600,
+      "image": "/api/media/petrochemical/polymer-exports-quarterly-record-1404",
+      "featured": true,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-003",
+      "slug": "ethane-feedstock-allocation-1404",
+      "section": "petrochemical",
+      "topic": "feedstock",
+      "title": "Hammadde komitesi yeni krakerler için etan tahsisini belirledi",
+      "lead": "Bu örnekte tamamlanmak üzere olan üç olefin ünitesine günde toplam 4,8 milyon metreküp etan tahsis edildi.",
+      "body": [
+        "Bu haberin kurgusal metnine göre tahsis, fiziksel ilerlemenin yüzde 90'ın üzerinde olmasına ve gaz transfer altyapısının hazır olmasına bağlı olup iki aşamada uygulanıyor.",
+        "Aynı senaryoda komite, iki gaz rafinerisindeki etan geri kazanım ünitelerinin tamamlanmasının bu tahsisler için ek arzı sağlayacağını söylüyor.",
+        "Bu içerik kaynaklı değildir; tüm rakamları ve süreçleri bu demoda hammadde haber yapısını göstermek için oluşturulmuştur."
+      ],
+      "tags": [
+        "hammadde",
+        "etan",
+        "olefin krakeri",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Enerji Bakanlığı basın ofisi (örnek)",
+      "dateJalali": "1404/05/21",
+      "dateGregorian": "2025-08-12",
+      "publishedAt": "2025-08-12T15:10:00+03:30",
+      "readingMinutes": 3,
+      "views": 33450,
+      "image": "/api/media/petrochemical/ethane-feedstock-allocation-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-004",
+      "slug": "pdh-plant-construction-progress-1404",
+      "section": "petrochemical",
+      "topic": "projects",
+      "title": "Propan dehidrojenasyon tesisi yüzde 80 ilerlemeyi geçti",
+      "lead": "Bu örnekte yılda 500 bin ton propilen için bir PDH ünitesinin inşaatı yüzde 82'ye ulaştı.",
+      "body": [
+        "Bu haberin kurgusal verilerine göre ana reaktör ve ayırma kulelerinin montajı tamamlandı, hidrojen yan ünitesinde çalışmalar sürüyor. Devreye alma için 1404'ün ikinci yarısı hedefleniyor.",
+        "Aynı senaryoda ünitenin propileni komşu bir polipropilen kompleksini besleyecek ve yerel değer zincirini tamamlayacak.",
+        "Bu metindeki her sayı ve takvim varsayımsaldır ve yalnızca proje haberi biçimini göstermek için kullanılmıştır."
+      ],
+      "tags": [
+        "projeler",
+        "PDH",
+        "propilen",
+        "1404"
+      ],
+      "author": "Saha Muhabirliği",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/05/13",
+      "dateGregorian": "2025-08-04",
+      "publishedAt": "2025-08-04T10:50:00+03:30",
+      "readingMinutes": 3,
+      "views": 24990,
+      "image": "/api/media/petrochemical/pdh-plant-construction-progress-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-005",
+      "slug": "domestic-catalyst-production-share-1404",
+      "section": "petrochemical",
+      "topic": "production",
+      "title": "Yerli katalizörler sanayi talebinin daha büyük bölümünü karşılıyor",
+      "lead": "Bu örnekte proses katalizörlerinin yerli üretimi, petrokimya sanayisinin yıllık ihtiyacının yüzde 40'ını karşılıyor.",
+      "body": [
+        "Bu raporun kurgusal rakamlarına göre üç katalizör tesisi geçen yıl anma kapasitesine ulaştı; en çok büyüme metanol ve amonyak üniteleri için üretilen sınıflarda görüldü.",
+        "Aynı senaryoda örnek hedef, bu payı 1407 yılına kadar yüzde 60'a çıkarmak ve katalizör ithalatına bağlı döviz bağımlılığını azaltmak.",
+        "Bu haber kaynaklı değildir ve yalnızca bu demonun petrokimya servisindeki üretim makale yapısını göstermek için hazırlanmıştır."
+      ],
+      "tags": [
+        "üretim",
+        "katalizör",
+        "yerlileştirme",
+        "1404"
+      ],
+      "author": "Enerji Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/05/02",
+      "dateGregorian": "2025-07-24",
+      "publishedAt": "2025-07-24T13:05:00+03:30",
+      "readingMinutes": 3,
+      "views": 19430,
+      "image": "/api/media/petrochemical/domestic-catalyst-production-share-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-006",
+      "slug": "urea-ammonia-output-debottleneck-1404",
+      "section": "petrochemical",
+      "topic": "production",
+      "title": "Darboğaz giderme sonrası üre ve amonyak üretimi arttı",
+      "lead": "Bu örnekte ısı eşanjörlerinin ve sıkıştırma bölümünün yenilenmesi, iki gübre kompleksinin efektif kapasitesini yaklaşık yüzde 8 artırdı.",
+      "body": [
+        "Bu haberin varsayımsal metnine göre iyileştirmeler planlı 20 günlük duruş sırasında yapıldı ve üniteler olaysız şekilde devreye döndü.",
+        "Aynı senaryoda eklenen üretimin bir kısmı yurt içi tarım gübresine, bir kısmı bölgesel ihracata gidiyor.",
+        "Bu metindeki tüm sayılar uydurmadır ve yalnızca bu demodaki üretim haber listesini tamamlamak için yazılmıştır."
+      ],
+      "tags": [
+        "üretim",
+        "üre",
+        "amonyak",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Ulusal şirket basın ofisi (örnek)",
+      "dateJalali": "1404/04/21",
+      "dateGregorian": "2025-07-12",
+      "publishedAt": "2025-07-12T11:20:00+03:30",
+      "readingMinutes": 2,
+      "views": 17820,
+      "image": "/api/media/petrochemical/urea-ammonia-output-debottleneck-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-007",
+      "slug": "petrochemical-port-logistics-upgrade-1404",
+      "section": "petrochemical",
+      "topic": "exports",
+      "title": "Liman lojistiği iyileştirmesi petrokimya yükleme süresini kısalttı",
+      "lead": "Bu örnekte iki otomatik torbalama hattı ve yeni bir kapalı depo, gemi başına ortalama yükleme süresini 14 saat kısalttı.",
+      "body": [
+        "Bu haberin kurgusal rakamlarına göre katı ürün terminalinin günlük elleçleme kapasitesi 9.000 tondan 13.000 tona çıktı ve kamyon kuyruğu kısaldı.",
+        "Aynı senaryoda operatör, sonraki aşamanın bir kargo takip sistemi ve elektronik gümrük bağlantısı içerdiğini söylüyor.",
+        "Bu haberin gerçek verisi yoktur ve yalnızca bu demonun petrokimya servisindeki ihracat haber biçimini göstermek için hazırlanmıştır."
+      ],
+      "tags": [
+        "ihracat",
+        "liman lojistiği",
+        "yükleme",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Demo Haber Ajansı",
+      "dateJalali": "1404/04/09",
+      "dateGregorian": "2025-06-30",
+      "publishedAt": "2025-06-30T14:45:00+03:30",
+      "readingMinutes": 2,
+      "views": 13560,
+      "image": "/api/media/petrochemical/petrochemical-port-logistics-upgrade-1404",
+      "featured": false,
+      "breaking": false
+    },
+    {
+      "id": "petrochemical-008",
+      "slug": "gas-feedstock-price-formula-1404",
+      "section": "petrochemical",
+      "topic": "feedstock",
+      "title": "Petrokimya üniteleri için yeni gaz hammadde fiyat formülü yürürlüğe girdi",
+      "lead": "Bu örnekte gaz hammadde fiyatı, oynaklığı azaltmak için birkaç yerli endeksin hareketli ortalaması ve mevsimsel bir tavan üzerinden belirleniyor.",
+      "body": [
+        "Bu haberin kurgusal metnine göre yeni formülün tanımlı bir taban ve tavanı var ve her üç ayda bir gözden geçiriliyor. Belirtilen amaç, metanol ve üre üniteleri için girdi maliyetlerini daha öngörülebilir kılmak.",
+        "Aynı senaryoda varsayımsal bir sanayi işverenleri derneği, düşen yatırım riskini olumlu karşılıyor ancak mevsimsel tavanın düzeyi konusunda kararsız.",
+        "Bu içerik kaynaklı değildir; tüm bölümleri bu demoda hammadde haber yapısını göstermek için oluşturulmuştur."
+      ],
+      "tags": [
+        "hammadde",
+        "gaz fiyatı",
+        "politika",
+        "1404"
+      ],
+      "author": "Ekonomi Masası",
+      "source": "Enerji Bakanlığı basın ofisi (örnek)",
+      "dateJalali": "1404/03/27",
+      "dateGregorian": "2025-06-17",
+      "publishedAt": "2025-06-17T09:30:00+03:30",
+      "readingMinutes": 3,
+      "views": 28310,
+      "image": "/api/media/petrochemical/gas-feedstock-price-formula-1404",
+      "featured": false,
+      "breaking": false
+    }
+  ]
+}
