@@ -57,8 +57,8 @@ type Dict = {
 
 export const dictionaries: Record<Locale, Dict> = {
   fa: {
-    siteName: "خبر انرژی",
-    tagline: "پایگاه خبری تحلیلی حوزه انرژی، نفت و پتروشیمی",
+    siteName: "نفت فوری",
+    tagline: "پوشش لحظه‌ای اخبار نفت، انرژی و پتروشیمی",
     nav: {
       home: "صفحه نخست",
       energy: "انرژی",
@@ -91,7 +91,7 @@ export const dictionaries: Record<Locale, Dict> = {
     footer: {
       about: "درباره ما",
       aboutText:
-        "«خبر انرژی» یک نمونه آزمایشی (دمو) است و همه اخبار، ارقام و منابع آن ساختگی و صرفاً برای نمایش ساختار صفحه در سال ۱۴۰۴ تهیه شده است.",
+        "«نفت فوری» یک نمونه آزمایشی (دمو) است؛ همه اخبار، ارقام و منابع ساختگی‌اند و تنها برای نمایش ساختار صفحه در سال ۱۴۰۴ تهیه شده‌اند.",
       quickLinks: "دسترسی سریع",
       contact: "ارتباط با ما",
       address: "تهران، خیابان ولیعصر، پلاک ۱۴۰۴",
@@ -100,8 +100,8 @@ export const dictionaries: Record<Locale, Dict> = {
     },
   },
   en: {
-    siteName: "Energy News",
-    tagline: "News and analysis on energy, oil and petrochemicals",
+    siteName: "Naft Fouri",
+    tagline: "Breaking coverage of oil, energy and petrochemicals",
     nav: {
       home: "Home",
       energy: "Energy",
@@ -134,7 +134,7 @@ export const dictionaries: Record<Locale, Dict> = {
     footer: {
       about: "About",
       aboutText:
-        "“Energy News” is a demo. Every headline, figure and source is fabricated and exists only to show the page structure for the year 1404 (2025–2026).",
+        "“Naft Fouri” is a demo. Every headline, figure and source is fabricated and exists only to show the page structure for the year 1404 (2025–2026).",
       quickLinks: "Quick links",
       contact: "Contact",
       address: "No. 1404, Valiasr St., Tehran",
@@ -143,8 +143,8 @@ export const dictionaries: Record<Locale, Dict> = {
     },
   },
   ar: {
-    siteName: "أخبار الطاقة",
-    tagline: "موقع إخباري تحليلي في مجالات الطاقة والنفط والبتروكيماويات",
+    siteName: "نفط فوري",
+    tagline: "تغطية فورية لأخبار النفط والطاقة والبتروكيماويات",
     nav: {
       home: "الصفحة الرئيسية",
       energy: "الطاقة",
@@ -177,7 +177,7 @@ export const dictionaries: Record<Locale, Dict> = {
     footer: {
       about: "من نحن",
       aboutText:
-        "«أخبار الطاقة» نسخة تجريبية (ديمو)، وجميع الأخبار والأرقام والمصادر فيها متخيّلة وُضعت فقط لعرض هيكل الصفحة لعام ١٤٠٤ الشمسي (2025–2026).",
+        "«نفط فوري» نسخة تجريبية (ديمو)؛ جميع الأخبار والأرقام والمصادر متخيّلة، وُضعت فقط لعرض هيكل الصفحة لعام ١٤٠٤ الشمسي (2025–2026).",
       quickLinks: "روابط سريعة",
       contact: "اتصل بنا",
       address: "طهران، شارع ولي العصر، رقم ١٤٠٤",
@@ -186,8 +186,8 @@ export const dictionaries: Record<Locale, Dict> = {
     },
   },
   tr: {
-    siteName: "Enerji Haber",
-    tagline: "Enerji, petrol ve petrokimya alanında haber ve analiz",
+    siteName: "Naft Fouri",
+    tagline: "Petrol, enerji ve petrokimyada anlık haber akışı",
     nav: {
       home: "Ana sayfa",
       energy: "Enerji",
@@ -220,7 +220,7 @@ export const dictionaries: Record<Locale, Dict> = {
     footer: {
       about: "Hakkımızda",
       aboutText:
-        "“Enerji Haber” bir demodur. Tüm başlıklar, rakamlar ve kaynaklar kurgusaldır; yalnızca 1404 (2025–2026) yılı için sayfa yapısını göstermek amacıyla hazırlanmıştır.",
+        "“Naft Fouri” bir demodur. Tüm başlıklar, rakamlar ve kaynaklar kurgusaldır; yalnızca 1404 (2025–2026) yılı için sayfa yapısını göstermek amacıyla hazırlanmıştır.",
       quickLinks: "Hızlı bağlantılar",
       contact: "İletişim",
       address: "No. 1404, Valiasr Cad., Tahran",

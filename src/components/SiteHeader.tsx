@@ -1,5 +1,6 @@
 import Link from "next/link";
 import LocaleSwitcher from "./LocaleSwitcher";
+import Logo from "./Logo";
 import { getDictionary } from "@/lib/i18n";
 import { mastheadDate } from "@/lib/demo";
 import { SECTIONS, type Locale } from "@/lib/types";
@@ -14,15 +15,17 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
   ];
 
   return (
-    <header className="border-b border-black/5 bg-brand-800 text-white">
+    <header className="border-b-2 border-brand-500 bg-ink-800 text-white">
       <div className="container-page flex items-center justify-between gap-4 py-3">
         <div className="flex items-center gap-3">
-          <Link href={base} className="flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-white/15 text-lg font-black">
-              ⚡
+          <Link href={base} className="flex items-center gap-2.5">
+            <span className="grid h-10 w-10 place-items-center rounded-full bg-white p-1">
+              <Logo className="h-full w-full" title={t.siteName} />
             </span>
             <span className="leading-tight">
-              <span className="block text-base font-black">{t.siteName}</span>
+              <span className="block text-base font-black tracking-tight">
+                {t.siteName}
+              </span>
               <span className="block text-[11px] font-medium text-white/70">
                 {t.tagline}
               </span>
@@ -38,7 +41,7 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
         </div>
       </div>
 
-      <nav className="bg-brand-900/40">
+      <nav className="bg-ink-900/60">
         <div className="container-page flex items-center gap-1 overflow-x-auto py-1.5 text-sm">
           {navItems.map((item) => (
             <Link

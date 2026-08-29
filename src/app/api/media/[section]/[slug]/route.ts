@@ -11,9 +11,9 @@ export const runtime = "nodejs";
  */
 
 const PALETTES: Record<SectionSlug, [string, string]> = {
-  energy: ["#f97316", "#b91c1c"],
-  oil: ["#0f766e", "#134e4a"],
-  petrochemical: ["#7c3aed", "#4c1d95"],
+  oil: ["#c8102e", "#6d0a1b"],
+  energy: ["#2e4a54", "#1b2a2f"],
+  petrochemical: ["#587c85", "#273d45"],
 };
 
 const GLYPHS: Record<SectionSlug, string> = {

@@ -34,12 +34,12 @@ html[dir="rtl"] em {
   }
 
   .section-title {
-    @apply flex items-center gap-2 text-lg font-extrabold text-brand-800;
+    @apply flex items-center gap-2 text-lg font-extrabold text-ink-800;
   }
 
   .section-title::before {
     content: "";
-    @apply inline-block h-5 w-1.5 rounded-full bg-brand-600;
+    @apply inline-block h-5 w-1.5 rounded-full bg-brand-500;
   }
 
   .chip {

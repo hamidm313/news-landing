@@ -7,7 +7,7 @@ export default function SiteFooter({ locale }: { locale: Locale }) {
   const base = `/${locale}`;
 
   return (
-    <footer className="mt-8 border-t border-black/10 bg-brand-900 text-white/80">
+    <footer className="mt-8 border-t-2 border-brand-500 bg-ink-900 text-white/80">
       <div className="container-page grid gap-8 py-10 md:grid-cols-3">
         <div>
           <h3 className="mb-3 text-sm font-black text-white">{t.footer.about}</h3>
