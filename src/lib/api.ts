@@ -23,13 +23,28 @@ export const usingRealBackend = API_BASE !== "";
 
 async function getJson<T>(url: string): Promise<T> {
   const res = await fetch(url, { headers: { accept: "application/json" } });
-  if (!res.ok) {
-    const detail = await res.text().catch(() => "");
+  const body = await res.json().catch(() => null);
+
+  // The PHP backend wraps every response in the cmms envelope
+  // { result, message, data, token }; the mock routes return the payload raw.
+  // Unwrap the envelope so callers see one shape either way.
+  const isEnvelope =
+    body &&
+    typeof body === "object" &&
+    "result" in body &&
+    "data" in body &&
+    "token" in body;
+  const payload = isEnvelope ? (body as { data: unknown }).data : body;
+
+  if (!res.ok || (isEnvelope && (body as { result: boolean }).result === false)) {
+    const msg =
+      (isEnvelope && (body as { message?: string }).message) ||
+      (typeof body === "string" ? body : "");
     throw new Error(
-      `Request failed (${res.status}) for ${url}${detail ? `: ${detail}` : ""}`,
+      `Request failed (${res.status}) for ${url}${msg ? `: ${msg}` : ""}`,
     );
   }
-  return (await res.json()) as T;
+  return payload as T;
 }
 
 export interface ListParams {
