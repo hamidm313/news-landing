@@ -12,6 +12,7 @@
  */
 
 import { promises as fs } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -25,6 +26,29 @@ import { isoFromJalali, jalaliDisplay, toFa } from "./jalaali.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DATA_ROOT = path.join(ROOT, "data");
+
+/**
+ * Real CC0 cover photos, downloaded by scripts/fetch-media.mjs into
+ * public/media/**. When a slug has one, `image` points at the static file;
+ * otherwise it falls back to the generated-SVG route /api/media/<section>/<slug>
+ * (served by the mock API and the PHP backend alike).
+ */
+const MEDIA_MANIFEST = path.join(ROOT, "public", "media", "manifest.json");
+const mediaBySlug = new Map();
+if (existsSync(MEDIA_MANIFEST)) {
+  const m = JSON.parse(readFileSync(MEDIA_MANIFEST, "utf8"));
+  for (const [key, entry] of Object.entries(m)) {
+    // key is "<section>/<slug>"
+    mediaBySlug.set(key.split("/").pop(), entry.file);
+  }
+}
+
+function imageFor(kernel) {
+  const file = mediaBySlug.get(kernel.slug);
+  return file
+    ? `/media/${file}`
+    : `/api/media/${kernel.section}/${kernel.slug}`;
+}
 
 const AR_DIGITS = ["٠", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩"];
 const toAr = (s) => String(s).replace(/\d/g, (d) => AR_DIGITS[+d]);
@@ -66,7 +90,7 @@ function buildArticle(kernel, locale, index) {
     publishedAt: iso,
     readingMinutes: kernel.readingMinutes,
     views: kernel.views,
-    image: `/api/media/${kernel.section}/${kernel.slug}`,
+    image: imageFor(kernel),
     featured: Boolean(kernel.featured),
     breaking: Boolean(kernel.breaking),
   };

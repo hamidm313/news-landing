@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start -p 3000",
     "lint": "next lint",
+    "media:fetch": "node scripts/fetch-media.mjs",
     "data:generate": "node scripts/generate-data.mjs"
   },
   "dependencies": {

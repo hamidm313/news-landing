@@ -20,6 +20,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   // Skip Next internals, the mock API and static assets.
   matcher: [
-    "/((?!api|_next/static|_next/image|images|favicon.ico|icon.svg|apple-icon.png|robots.txt|sitemap.xml).*)",
+    "/((?!api|_next/static|_next/image|images|media|favicon.ico|icon.svg|apple-icon.png|robots.txt|sitemap.xml).*)",
   ],
 };

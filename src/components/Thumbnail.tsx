@@ -4,11 +4,13 @@ import { useState } from "react";
 import type { SectionSlug } from "@/lib/types";
 
 /**
- * Article cover. Renders `src` (an /api/media/... URL from the data, resolved
- * against the backend when NEXT_PUBLIC_API_BASE is set) as an <img>, over a
- * deterministic gradient derived from the slug. If `src` is missing or fails
- * to load, the gradient alone stands in — no network required, works in any
- * theme.
+ * Article cover. Renders `src` from the data as an <img> over a deterministic
+ * gradient derived from the slug. `src` is normally a static CC0 photo under
+ * /media/... (bundled in public/, served by the frontend in either data mode);
+ * slugs without a downloaded photo fall back to the generated-SVG route
+ * /api/media/... which is resolved against the backend when NEXT_PUBLIC_API_BASE
+ * is set. If `src` is missing or fails to load, the gradient alone stands in —
+ * no network required, works in any theme.
  */
 
 const PALETTES: Record<SectionSlug, [string, string]> = {

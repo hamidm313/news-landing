@@ -49,7 +49,7 @@
       "publishedAt": "2025-08-26T08:15:00+03:30",
       "readingMinutes": 4,
       "views": 91240,
-      "image": "/api/media/energy/grid-summer-peak-record-1404",
+      "image": "/media/energy/grid-summer-peak-record-1404.jpg",
       "featured": true,
       "breaking": true
     },
@@ -78,7 +78,7 @@
       "publishedAt": "2025-08-18T11:40:00+03:30",
       "readingMinutes": 3,
       "views": 43110,
-      "image": "/api/media/energy/solar-capacity-milestone-1404",
+      "image": "/media/energy/solar-capacity-milestone-1404.jpg",
       "featured": true,
       "breaking": false
     },
@@ -107,7 +107,7 @@
       "publishedAt": "2025-08-10T16:05:00+03:30",
       "readingMinutes": 3,
       "views": 30880,
-      "image": "/api/media/energy/gas-winter-storage-plan-1404",
+      "image": "/media/energy/gas-winter-storage-plan-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -136,7 +136,7 @@
       "publishedAt": "2025-08-02T09:50:00+03:30",
       "readingMinutes": 2,
       "views": 18760,
-      "image": "/api/media/energy/appliance-labelling-rules-1404",
+      "image": "/media/energy/appliance-labelling-rules-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -165,7 +165,7 @@
       "publishedAt": "2025-07-20T13:20:00+03:30",
       "readingMinutes": 3,
       "views": 22470,
-      "image": "/api/media/energy/northeast-wind-farm-financing-1404",
+      "image": "/media/energy/northeast-wind-farm-financing-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -194,7 +194,7 @@
       "publishedAt": "2025-07-08T10:30:00+03:30",
       "readingMinutes": 2,
       "views": 26540,
-      "image": "/api/media/energy/cross-border-power-export-renewed-1404",
+      "image": "/media/energy/cross-border-power-export-renewed-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -223,7 +223,7 @@
       "publishedAt": "2025-06-27T12:00:00+03:30",
       "readingMinutes": 3,
       "views": 15230,
-      "image": "/api/media/energy/smart-meter-rollout-progress-1404",
+      "image": "/media/energy/smart-meter-rollout-progress-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -252,7 +252,7 @@
       "publishedAt": "2025-06-14T15:45:00+03:30",
       "readingMinutes": 3,
       "views": 19980,
-      "image": "/api/media/energy/grid-battery-storage-pilot-1404",
+      "image": "/media/energy/grid-battery-storage-pilot-1404.jpg",
       "featured": false,
       "breaking": false
     }

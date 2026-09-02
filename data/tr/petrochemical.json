@@ -49,7 +49,7 @@
       "publishedAt": "2025-08-27T08:40:00+03:30",
       "readingMinutes": 4,
       "views": 69880,
-      "image": "/api/media/petrochemical/methanol-complex-startup-1404",
+      "image": "/media/petrochemical/methanol-complex-startup-1404.jpg",
       "featured": true,
       "breaking": true
     },
@@ -78,7 +78,7 @@
       "publishedAt": "2025-08-21T12:30:00+03:30",
       "readingMinutes": 3,
       "views": 47600,
-      "image": "/api/media/petrochemical/polymer-exports-quarterly-record-1404",
+      "image": "/media/petrochemical/polymer-exports-quarterly-record-1404.jpg",
       "featured": true,
       "breaking": false
     },
@@ -107,7 +107,7 @@
       "publishedAt": "2025-08-12T15:10:00+03:30",
       "readingMinutes": 3,
       "views": 33450,
-      "image": "/api/media/petrochemical/ethane-feedstock-allocation-1404",
+      "image": "/media/petrochemical/ethane-feedstock-allocation-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -136,7 +136,7 @@
       "publishedAt": "2025-08-04T10:50:00+03:30",
       "readingMinutes": 3,
       "views": 24990,
-      "image": "/api/media/petrochemical/pdh-plant-construction-progress-1404",
+      "image": "/media/petrochemical/pdh-plant-construction-progress-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -165,7 +165,7 @@
       "publishedAt": "2025-07-24T13:05:00+03:30",
       "readingMinutes": 3,
       "views": 19430,
-      "image": "/api/media/petrochemical/domestic-catalyst-production-share-1404",
+      "image": "/media/petrochemical/domestic-catalyst-production-share-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -194,7 +194,7 @@
       "publishedAt": "2025-07-12T11:20:00+03:30",
       "readingMinutes": 2,
       "views": 17820,
-      "image": "/api/media/petrochemical/urea-ammonia-output-debottleneck-1404",
+      "image": "/media/petrochemical/urea-ammonia-output-debottleneck-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -223,7 +223,7 @@
       "publishedAt": "2025-06-30T14:45:00+03:30",
       "readingMinutes": 2,
       "views": 13560,
-      "image": "/api/media/petrochemical/petrochemical-port-logistics-upgrade-1404",
+      "image": "/media/petrochemical/petrochemical-port-logistics-upgrade-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -252,7 +252,7 @@
       "publishedAt": "2025-06-17T09:30:00+03:30",
       "readingMinutes": 3,
       "views": 28310,
-      "image": "/api/media/petrochemical/gas-feedstock-price-formula-1404",
+      "image": "/media/petrochemical/gas-feedstock-price-formula-1404.jpg",
       "featured": false,
       "breaking": false
     }

@@ -5,11 +5,15 @@ import { SECTIONS, type SectionSlug } from "@/lib/types";
 export const runtime = "nodejs";
 
 /**
+ * Cover-image FALLBACK. Real covers are static photos in public/media/**;
+ * this route only fires for a slug with no downloaded photo.
+ *
  * Mock counterpart of the PHP backend's GET /api/media/{section}/{slug}.
  * Renders a deterministic **editorial scene** per article (oil: pump jacks +
  * tanks; energy: pylons + turbine; petrochemical: columns + flare) in the
- * نفت فوری palette, 3 variants by slug. Kept byte-for-byte equivalent to
- * MediaController::svg() so `image` resolves the same in both modes.
+ * نفت فوری palette, 3 variants by slug. Kept equivalent to
+ * news-backend/src/Controllers/MediaController.php so `image` resolves the same
+ * in both data modes — change the two together.
  */
 
 const SKY: Record<SectionSlug, [string, string]> = {

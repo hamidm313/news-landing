@@ -6,6 +6,7 @@ import type {
   BreakingItem,
   Locale,
   SectionData,
+  SectionMeta,
   SectionSlug,
 } from "@/lib/types";
 import { LOCALES, SECTIONS } from "@/lib/types";
@@ -47,6 +48,13 @@ export async function getSection(
   const data = await readJson<SectionData>(`${locale}/${section}.json`);
   data.articles = [...data.articles].sort(sortByDateDesc);
   return data;
+}
+
+export async function getSections(locale: Locale): Promise<SectionMeta[]> {
+  const metas = await Promise.all(
+    SECTIONS.map((s) => getSection(locale, s).then((d) => d.meta)),
+  );
+  return metas;
 }
 
 export async function getAllArticles(locale: Locale): Promise<Article[]> {

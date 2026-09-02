@@ -20,7 +20,9 @@ export async function GET(
     30,
     Math.max(1, Number(url.searchParams.get("pageSize") ?? "6")),
   );
-  const topic = url.searchParams.get("topic") ?? undefined;
+  const topicParam = url.searchParams.get("topic") ?? undefined;
+  // "" and "all" both mean "no topic filter" (matches the PHP backend).
+  const topic = topicParam && topicParam !== "all" ? topicParam : undefined;
 
   try {
     assertLocale(locale);

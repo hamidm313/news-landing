@@ -37,8 +37,10 @@ Open <http://localhost:3000> → redirects to `/fa`. Also `/en`, `/ar`, `/tr`.
    cp .env.local.example .env.local
    ```
 
-   It sets `NEXT_PUBLIC_API_BASE=http://127.0.0.1:8090`. Every fetch — including
-   the article cover images at `/api/media/...` — now goes to the PHP backend.
+   It sets `NEXT_PUBLIC_API_BASE=http://127.0.0.1:8090`. Every data fetch now
+   goes to the PHP backend. Article cover photos are static CC0 files under
+   `public/media/**` (served by this app in either mode); the few slugs without
+   a photo fall back to the generated-SVG route `/api/media/...` on the backend.
 3. `npm run dev` (restart if it was already running).
 4. Back to mock mode: delete `.env.local` and restart.
 
@@ -82,6 +84,24 @@ npm run data:generate
 If `news-backend` is seeded from these files, re-run `../news-backend/console.sh
 seed` (or `fresh`) afterward so the two stay in sync.
 
+### Cover photos
+
+`public/media/<section>/<slug>.jpg` holds a real **CC0 / public-domain** photo
+per article (Wikimedia Commons). `scripts/fetch-media.mjs` downloads them and
+writes `public/media/manifest.json` + `CREDITS.md`; `data:generate` reads the
+manifest to set each article's `image`. Refresh or extend them with:
+
+```bash
+npm run media:fetch      # skips slugs already downloaded; --force refetches
+```
+
+```bash
+npm run data:generate    # picks up new images from the manifest
+```
+
+Slugs with no downloaded photo fall back to the generated-SVG route
+`/api/media/<section>/<slug>`.
+
 ## Scripts
 
 | command | does |
@@ -90,6 +110,7 @@ seed` (or `fresh`) afterward so the two stay in sync.
 | `npm run build` | production build → `.next/` |
 | `npm start` | serve the production build on `:3000` |
 | `npm run lint` | ESLint (`next lint`) |
+| `npm run media:fetch` | download CC0 cover photos → `public/media/**` + manifest |
 | `npm run data:generate` | rewrite `data/<locale>/*.json` from `scripts/content.mjs` |
 
 ## Layout
@@ -103,13 +124,20 @@ src/lib/queries.ts           TanStack Query hooks + keys
 src/lib/i18n.ts              dictionaries, dir(), locale list
 src/lib/server/dataStore.ts  reads data/*.json for SSR meta / 404 checks
 data/<locale>/*.json         generated mock content
-scripts/                     content.mjs (source) + generate-data.mjs + jalaali.mjs
+public/media/                CC0 cover photos + manifest.json + CREDITS.md
+scripts/                     content.mjs (source) + generate-data.mjs + fetch-media.mjs + jalaali.mjs
 ```
 
 ## Notes
 
 - `.env.local` is git-ignored. `.env.local.example` is the template.
-- The mock API and `news-backend` return identical shapes, so switching modes
-  needs no code changes.
+- The mock API (`src/app/api/**` + `src/lib/server/dataStore.ts`) and
+  `news-backend` (PHP) must return **byte-identical payloads** for every field,
+  locale and endpoint — the frontend switches between them with only an env
+  change. **Change one → change the other in the same edit.** This mock side is
+  the reference (`data/<locale>/*.json` is the canonical localised form). Only
+  accepted differences: article `id` (UUID in PHP vs `<section>-NNN` here) and
+  `views` (PHP bumps it on article read).
+  See `../news-backend/plan/cmms-port-plan.md` §"Stage 9b".
 - Server components read `data/*.json` directly for SSR metadata even in backend
   mode — fine while the seed matches; revisit if the two ever diverge.

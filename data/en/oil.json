@@ -49,7 +49,7 @@
       "publishedAt": "2025-08-24T09:10:00+03:30",
       "readingMinutes": 4,
       "views": 61230,
-      "image": "/api/media/oil/southern-field-redevelopment-contract-1404",
+      "image": "/media/oil/southern-field-redevelopment-contract-1404.jpg",
       "featured": true,
       "breaking": false
     },
@@ -78,7 +78,7 @@
       "publishedAt": "2025-08-22T07:45:00+03:30",
       "readingMinutes": 3,
       "views": 78450,
-      "image": "/api/media/oil/crude-condensate-exports-q1-1404",
+      "image": "/media/oil/crude-condensate-exports-q1-1404.jpg",
       "featured": true,
       "breaking": true
     },
@@ -107,7 +107,7 @@
       "publishedAt": "2025-08-14T14:25:00+03:30",
       "readingMinutes": 4,
       "views": 40120,
-      "image": "/api/media/oil/refinery-upgrade-gasoline-output-1404",
+      "image": "/media/oil/refinery-upgrade-gasoline-output-1404.jpg",
       "featured": true,
       "breaking": false
     },
@@ -136,7 +136,7 @@
       "publishedAt": "2025-08-06T17:30:00+03:30",
       "readingMinutes": 3,
       "views": 52310,
-      "image": "/api/media/oil/brent-range-analysis-late-summer-1404",
+      "image": "/media/oil/brent-range-analysis-late-summer-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -165,7 +165,7 @@
       "publishedAt": "2025-07-29T10:05:00+03:30",
       "readingMinutes": 3,
       "views": 21770,
-      "image": "/api/media/oil/enhanced-oil-recovery-pilot-results-1404",
+      "image": "/media/oil/enhanced-oil-recovery-pilot-results-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -194,7 +194,7 @@
       "publishedAt": "2025-07-17T13:40:00+03:30",
       "readingMinutes": 2,
       "views": 17640,
-      "image": "/api/media/oil/floating-storage-terminal-flexibility-1404",
+      "image": "/media/oil/floating-storage-terminal-flexibility-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -223,7 +223,7 @@
       "publishedAt": "2025-07-04T16:15:00+03:30",
       "readingMinutes": 2,
       "views": 14980,
-      "image": "/api/media/oil/refining-margins-narrow-report-1404",
+      "image": "/media/oil/refining-margins-narrow-report-1404.jpg",
       "featured": false,
       "breaking": false
     },
@@ -252,7 +252,7 @@
       "publishedAt": "2025-06-19T11:55:00+03:30",
       "readingMinutes": 2,
       "views": 16210,
-      "image": "/api/media/oil/heavy-crude-discount-widens-1404",
+      "image": "/media/oil/heavy-crude-discount-widens-1404.jpg",
       "featured": false,
       "breaking": false
     }
