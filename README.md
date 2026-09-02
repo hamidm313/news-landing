@@ -6,15 +6,16 @@ TypeScript + Tailwind + TanStack Query.
 
 By default it runs **fully offline** on mock data (`data/<locale>/*.json` served
 by in-app route handlers under `src/app/api/`). A one-line switch points every
-request at `news-backend` instead.
+request at the real backend instead — the PHP engine at
+`cmms/cmms-backend/php/` (vendor `news`).
 
 ---
 
 ## Requirements
 
 - **Node 18+** (Node 20 / npm 10 on this machine).
-- For *backend mode* only: `news-backend` running on `http://127.0.0.1:8090`
-  (see `../news-backend/README.md`).
+- For *backend mode* only: the `cmms-backend/php` engine running for vendor
+  `news` on `http://127.0.0.1:8090` (see `../../cmms/cmms-backend/php/README.md`).
 
 ## Quick start (dev, mock mode — no backend needed)
 
@@ -30,7 +31,8 @@ Open <http://localhost:3000> → redirects to `/fa`. Also `/en`, `/ar`, `/tr`.
 
 ## Dev against the live backend
 
-1. Start `news-backend` (`cd ../news-backend && ./serve.sh`).
+1. Start the backend: from `cmms/cmms-backend/` run `npm run dev:news` (PHP
+   built-in server on `:8090`; equivalently `cd php && PROJECT=news ./serve.sh`).
 2. Create `.env.local`:
 
    ```bash
@@ -81,8 +83,9 @@ JSON files:
 npm run data:generate
 ```
 
-If `news-backend` is seeded from these files, re-run `../news-backend/console.sh
-seed` (or `fresh`) afterward so the two stay in sync.
+These are vendored into `cmms-backend/php/migrator/projects/news/content/**`;
+copy them across and re-run `PROJECT=news ./console.sh seed:content` (from
+`cmms-backend/php/`) afterward so the backend stays in sync.
 
 ### Cover photos
 
@@ -117,7 +120,7 @@ Slugs with no downloaded photo fall back to the generated-SVG route
 
 ```
 src/app/[locale]/            home, section, article pages (App Router)
-src/app/api/                 mock API — mirrors news-backend response shapes
+src/app/api/                 mock API — mirrors the cmms-backend/php response shapes
 src/components/              SiteHeader, NewsCard, SectionFeed, Thumbnail, …
 src/lib/api.ts               fetch layer + NEXT_PUBLIC_API_BASE switch
 src/lib/queries.ts           TanStack Query hooks + keys
@@ -131,13 +134,13 @@ scripts/                     content.mjs (source) + generate-data.mjs + fetch-me
 ## Notes
 
 - `.env.local` is git-ignored. `.env.local.example` is the template.
-- The mock API (`src/app/api/**` + `src/lib/server/dataStore.ts`) and
-  `news-backend` (PHP) must return **byte-identical payloads** for every field,
-  locale and endpoint — the frontend switches between them with only an env
-  change. **Change one → change the other in the same edit.** This mock side is
-  the reference (`data/<locale>/*.json` is the canonical localised form). Only
+- The mock API (`src/app/api/**` + `src/lib/server/dataStore.ts`) and the
+  `cmms-backend/php` engine must return **byte-identical payloads** for every
+  field, locale and endpoint — the frontend switches between them with only an
+  env change. **Change one → change the other in the same edit.** This mock side
+  is the reference (`data/<locale>/*.json` is the canonical localised form). Only
   accepted differences: article `id` (UUID in PHP vs `<section>-NNN` here) and
   `views` (PHP bumps it on article read).
-  See `../news-backend/plan/cmms-port-plan.md` §"Stage 9b".
+  See `cmms-backend/php/CLAUDE.md` § "Landing/news read API ⇄ news-landing's Node mock".
 - Server components read `data/*.json` directly for SSR metadata even in backend
   mode — fine while the seed matches; revisit if the two ever diverge.

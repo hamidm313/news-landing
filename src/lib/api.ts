@@ -11,8 +11,9 @@ import type {
  *
  * Default: the in-app mock route handlers under `/api` (data from `data/*.json`).
  * Set `NEXT_PUBLIC_API_BASE` (e.g. http://127.0.0.1:8090) to point every call at
- * the real `news-backend` instead — its response shapes are identical. The mock
- * routes stay in place as an offline fallback.
+ * the real backend instead — the `cmms-backend/php` engine (vendor `news`),
+ * whose response shapes are identical. The mock routes stay in place as an
+ * offline fallback.
  */
 
 const API_BASE = (process.env.NEXT_PUBLIC_API_BASE ?? "").replace(/\/+$/, "");

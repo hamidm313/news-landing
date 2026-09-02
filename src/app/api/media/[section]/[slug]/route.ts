@@ -11,9 +11,9 @@ export const runtime = "nodejs";
  * Mock counterpart of the PHP backend's GET /api/media/{section}/{slug}.
  * Renders a deterministic **editorial scene** per article (oil: pump jacks +
  * tanks; energy: pylons + turbine; petrochemical: columns + flare) in the
- * نفت فوری palette, 3 variants by slug. Kept equivalent to
- * news-backend/src/Controllers/MediaController.php so `image` resolves the same
- * in both data modes — change the two together.
+ * نفت فوری palette, 3 variants by slug. Kept BYTE-IDENTICAL to
+ * cmms-backend/php/src/Controllers/MediaController.php so `image` resolves the
+ * same in both data modes — change the two together.
  */
 
 const SKY: Record<SectionSlug, [string, string]> = {
