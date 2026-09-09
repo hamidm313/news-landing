@@ -3,8 +3,27 @@ import type { Metadata } from "next";
 import ArticleView from "@/components/ArticleView";
 import MostViewed from "@/components/MostViewed";
 import { isLocale } from "@/lib/i18n";
-import { getArticle } from "@/lib/server/dataStore";
-import { SECTIONS, type Locale, type SectionSlug } from "@/lib/types";
+import { getArticle, getSection } from "@/lib/server/dataStore";
+import { LOCALES, SECTIONS, type Locale, type SectionSlug } from "@/lib/types";
+
+// Required for `output: 'export'` (static export) -- without this, Next has
+// no way to know which article slugs exist and either fails the build or
+// silently emits none. Added 2026-09-07 alongside dataStore.ts's real-backend
+// wiring, for the same reason: enumerates every real article (or, in mock
+// mode, every mock one) at build time, from whichever source getSection()
+// itself is currently reading.
+export async function generateStaticParams() {
+  const params: { locale: string; section: string; slug: string }[] = [];
+  for (const locale of LOCALES) {
+    for (const section of SECTIONS) {
+      const data = await getSection(locale, section);
+      for (const article of data.articles) {
+        params.push({ locale, section, slug: article.slug });
+      }
+    }
+  }
+  return params;
+}
 
 function parse(params: {
   locale: string;
