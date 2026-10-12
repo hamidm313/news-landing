@@ -9,7 +9,8 @@
     "lint": "next lint",
     "media:fetch": "node scripts/fetch-media.mjs",
     "data:generate": "node scripts/generate-data.mjs",
-    "build:innosolutionsir": "node scripts/build-static.mjs --env=innosolutionsir"
+    "build:innosolutionsir": "node scripts/build-static.mjs --env=innosolutionsir",
+    "build:nafteforicom": "node scripts/build-static.mjs --env=nafteforicom"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.59.16",
